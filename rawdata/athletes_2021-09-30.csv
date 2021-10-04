@@ -1,0 +1,648 @@
+category,event,gender,NOC,name,dob,age,ht_in,wt_lbs,medal
+TeamSports,3on3Hoops,Men,JPN,BROWN Ira,1982-08-03,39.0,76.0,nan,nan
+TeamSports,3on3Hoops,Men,JPN,OCHIAI Tomoya,1987-06-18,34.2,76.8,nan,nan
+TeamSports,3on3Hoops,Men,JPN,YASUOKA Ryuto,1995-04-27,26.2,74.0,nan,nan
+TeamSports,3on3Hoops,Men,JPN,TOMINAGA Keisei,2001-02-01,20.5,72.8,nan,nan
+TeamSports,3on3Hoops,Men,BEL,CELIS Nick,1988-11-24,32.7,77.2,nan,nan
+TeamSports,3on3Hoops,Men,BEL,VERVOORT Thibaut,1997-12-10,23.7,77.2,nan,nan
+TeamSports,3on3Hoops,Men,BEL,BOGAERTS Rafael,1993-08-16,28.0,78.0,nan,nan
+TeamSports,3on3Hoops,Men,BEL,MARIEN Thierry,1992-10-02,28.8,78.0,nan,nan
+TeamSports,3on3Hoops,Men,LAT,MIEZIS Nauris,1991-03-31,30.3,74.8,198,Gold
+TeamSports,3on3Hoops,Men,LAT,LASMANIS Karlis,1994-04-08,27.3,78.7,192,Gold
+TeamSports,3on3Hoops,Men,LAT,KRUMINS Edgars,1985-10-16,35.7,76.2,231,Gold
+TeamSports,3on3Hoops,Men,LAT,CAVARS Agnis,1986-07-31,35.0,77.2,216,Gold
+TeamSports,3on3Hoops,Men,ROC,SHAROV Stanislav,1995-05-29,26.2,75.2,209,Silver
+TeamSports,3on3Hoops,Men,ROC,ZUEV Alexander,1996-10-04,24.8,76.0,198,Silver
+TeamSports,3on3Hoops,Men,ROC,KARPENKOV Ilia,1997-02-17,24.5,80.3,278,Silver
+TeamSports,3on3Hoops,Men,ROC,PISKLOV Kirill,1996-09-22,24.8,75.8,198,Silver
+TeamSports,3on3Hoops,Men,SRB,RATKOV Aleksandar,1992-03-11,29.3,76.4,nan,Bronze
+TeamSports,3on3Hoops,Men,SRB,DOMOVIC BULUT Dusan,1988-04-22,33.2,78.7,nan,Bronze
+TeamSports,3on3Hoops,Men,SRB,MAJSTOROVIC Dejan,1993-07-20,28.1,78.3,nan,Bronze
+TeamSports,3on3Hoops,Men,SRB,VASIC Mihailo,1985-10-23,35.7,75.2,nan,Bronze
+TeamSports,3on3Hoops,Men,CHN,YAN Peng,1996-01-06,25.6,78.0,nan,nan
+TeamSports,3on3Hoops,Men,CHN,GAO Shiyan,1996-01-22,25.6,72.8,nan,nan
+TeamSports,3on3Hoops,Men,CHN,LI Haonan,1999-07-13,22.1,77.6,nan,nan
+TeamSports,3on3Hoops,Men,CHN,HU Jinqiu,1997-09-24,23.8,82.7,nan,nan
+TeamSports,3on3Hoops,Men,NED,van der HORST Dimeo,1991-06-23,30.1,77.6,nan,nan
+TeamSports,3on3Hoops,Men,NED,BEKKERING Ross,1987-08-19,34.0,80.3,nan,nan
+TeamSports,3on3Hoops,Men,NED,SLAGTER Arvin,1985-10-19,35.7,76.0,nan,nan
+TeamSports,3on3Hoops,Men,NED,VOORN Jessey,1990-03-17,31.3,76.0,nan,nan
+TeamSports,3on3Hoops,Men,POL,HICKS Michael,1983-06-17,38.2,75.6,nan,nan
+TeamSports,3on3Hoops,Men,POL,ZAMOJSKI Przemyslaw,1986-12-16,34.7,76.4,nan,nan
+TeamSports,3on3Hoops,Men,POL,PAWLOWSKI Pawel,1982-03-03,39.5,77.6,nan,nan
+TeamSports,3on3Hoops,Men,POL,RDUCH Szymon,1989-08-17,32.0,77.6,nan,nan
+TeamSports,3on3Hoops,Men,ALL,M 3on3 basketball,1991-09-02,30.1,76.9,215,Gold
+TeamSports,3on3Hoops,Women,USA,PLUM Kelsey,1994-08-24,27.0,67.7,145,Gold
+TeamSports,3on3Hoops,Women,USA,YOUNG Jacquelyn,1997-09-16,23.8,71.2,165,Gold
+TeamSports,3on3Hoops,Women,USA,DOLSON Stefanie,1992-01-08,29.6,76.8,214,Gold
+TeamSports,3on3Hoops,Women,USA,GRAY Allisha,1995-01-12,26.6,71.7,167,Gold
+TeamSports,3on3Hoops,Women,ALL,W 3on3Hoops TeamUSA,1994-12-29,26.8,71.8,172.8,Gold
+TeamSports,3on3Hoops,Women,ROC,KOZIK Yulia,1997-02-17,24.5,69.3,nan,Silver
+TeamSports,3on3Hoops,Women,ROC,LOGUNOVA Anastasiia,1990-07-20,31.1,75.6,nan,Silver
+TeamSports,3on3Hoops,Women,ROC,FROLKINA Olga,1997-07-28,24.0,72.0,nan,Silver
+TeamSports,3on3Hoops,Women,ROC,FROLKINA Evgeniia,1997-07-28,24.0,71.7,nan,Silver
+TeamSports,3on3Hoops,Women,CHN,YANG Shuyu,2002-03-06,19.3,72.8,nan,Bronze
+TeamSports,3on3Hoops,Women,CHN,ZHANG Zhiting,1995-12-21,25.6,76.8,nan,Bronze
+TeamSports,3on3Hoops,Women,CHN,WAN Jiyuan,2002-07-13,19.1,73.6,nan,Bronze
+TeamSports,3on3Hoops,Women,CHN,WANG Lili,1992-09-08,28.8,69.3,nan,Bronze
+TeamSports,3on3Hoops,Women,FRA,PAGET Marie-Eve,1994-11-28,26.7,66.9,nan,nan
+TeamSports,3on3Hoops,Women,FRA,FILIP Ana Maria,1989-06-20,32.2,76.8,nan,nan
+TeamSports,3on3Hoops,Women,FRA,GUAPO Laetitia,1995-10-25,25.7,72.0,nan,nan
+TeamSports,3on3Hoops,Women,FRA,TOURE Mamignan,1994-12-19,26.7,70.9,nan,nan
+TeamSports,3on3Hoops,Women,ITA,D ALIE Raelin,1987-10-31,33.7,64.2,nan,nan
+TeamSports,3on3Hoops,Women,ITA,CONSOLINI Chiara,1988-05-20,33.2,71.7,nan,nan
+TeamSports,3on3Hoops,Women,ITA,FILIPPI Marcella,1985-09-27,35.9,73.2,nan,nan
+TeamSports,3on3Hoops,Women,ITA,RULLI Giulia,1991-06-03,30.2,72.8,nan,nan
+TeamSports,3on3Hoops,Women,JPN,MAWULI Stephanie,1998-11-25,22.7,71.3,nan,nan
+TeamSports,3on3Hoops,Women,JPN,SHINOZAKI Mio,1991-09-12,29.8,65.7,nan,nan
+TeamSports,3on3Hoops,Women,JPN,NISHIOKA Risa,1997-03-03,24.3,73.2,nan,nan
+TeamSports,3on3Hoops,Women,JPN,YAMAMOTO Mai,1999-10-23,21.7,65.0,nan,nan
+TeamSports,3on3Hoops,Women,MGL,MUNKHSAIKHAN Tserenlkham,1996-03-13,25.3,70.1,nan,nan
+TeamSports,3on3Hoops,Women,MGL,ENKHTAIVAN Chimeddolgor,1993-01-29,28.5,68.9,nan,nan
+TeamSports,3on3Hoops,Women,MGL,ONOLBAATAR Khulan,1999-07-27,22.0,70.9,nan,nan
+TeamSports,3on3Hoops,Women,MGL,BAYASGALAN Solongo,1990-02-06,31.5,71.7,nan,nan
+TeamSports,3on3Hoops,Women,ROU,CUIC Claudia,1989-08-05,32.0,71.7,nan,nan
+TeamSports,3on3Hoops,Women,ROU,URSU Sonia,1993-07-24,28.1,69.3,nan,nan
+TeamSports,3on3Hoops,Women,ROU,STOENESCU Ancuta,1980-01-01,41.5,68.5,nan,nan
+TeamSports,3on3Hoops,Women,ROU,MARGINEAN Gabriela,1987-02-12,34.5,71.7,nan,nan
+TeamSports,3on3Hoops,Women,ALL,W 3on3 basketball,NaT,27.7,71.1,170,nan
+TeamSports,5on5Hoops,Men,ARG,BRUSSINO Nicolas,1993-03-02,28.5,78.7,nan,nan
+TeamSports,5on5Hoops,Men,ARG,CAFFARO Francisco,2000-05-19,21.2,81.5,nan,nan
+TeamSports,5on5Hoops,Men,ARG,BOLMARO Leandro,2000-09-11,20.8,78.0,nan,nan
+TeamSports,5on5Hoops,Men,ARG,DECK Gabriel,1995-02-08,26.5,79.5,nan,nan
+TeamSports,5on5Hoops,Men,ARG,DELIA Marcos,1992-04-08,29.3,81.1,nan,nan
+TeamSports,5on5Hoops,Men,ARG,GALLIZZI Tayavek,1993-02-08,28.5,80.7,nan,nan
+TeamSports,5on5Hoops,Men,ARG,GARINO Patricio,1993-05-17,28.2,77.2,nan,nan
+TeamSports,5on5Hoops,Men,ARG,CAMPAZZO Facundo,1991-03-23,30.3,70.5,nan,nan
+TeamSports,5on5Hoops,Men,ARG,LAPROVITTOLA Nicolas,1990-01-31,31.5,76.4,nan,nan
+TeamSports,5on5Hoops,Men,ARG,SCOLA Luis,1980-04-30,41.2,80.3,nan,nan
+TeamSports,5on5Hoops,Men,ARG,VAULET Juan Pablo,1996-03-22,25.3,78.0,nan,nan
+TeamSports,5on5Hoops,Men,ARG,VILDOZA Luca,1995-08-11,26.0,75.2,nan,nan
+TeamSports,5on5Hoops,Men,USA,DURANT Kevin,1988-09-29,32.9,81.1,231.0,Gold
+TeamSports,5on5Hoops,Men,USA,GRANT Jerami,1994-03-12,27.3,78.0,nan,Gold
+TeamSports,5on5Hoops,Men,USA,GREEN Draymond,1990-03-04,31.5,78.7,228.8,Gold
+TeamSports,5on5Hoops,Men,USA,ADEBAYO Bam,1997-07-18,24.1,81.1,nan,Gold
+TeamSports,5on5Hoops,Men,USA,BOOKER Devin,1996-10-30,24.7,77.2,198.0,Gold
+TeamSports,5on5Hoops,Men,USA,LAVINE Zach,1995-03-10,26.3,77.2,nan,Gold
+TeamSports,5on5Hoops,Men,USA,MIDDLETON Khris,1991-08-12,30.0,79.9,nan,Gold
+TeamSports,5on5Hoops,Men,USA,TATUM Jayson,1998-03-03,23.3,79.1,nan,Gold
+TeamSports,5on5Hoops,Men,USA,HOLIDAY Jrue,1990-06-12,31.2,75.2,nan,Gold
+TeamSports,5on5Hoops,Men,USA,LILLARD Damian,1990-07-15,31.1,75.2,191.4,Gold
+TeamSports,5on5Hoops,Men,USA,MCGEE Javale,1988-01-19,33.5,83.9,264.0,Gold
+TeamSports,5on5Hoops,Men,USA,JOHNSON Keldon,1999-10-11,21.7,77.2,nan,Gold
+TeamSports,5on5Hoops,Men,FRA,ALBICY Andrew,1990-03-21,31.3,70.1,nan,Silver
+TeamSports,5on5Hoops,Men,FRA,BATUM Nicolas,1988-12-14,32.7,79.9,nan,Silver
+TeamSports,5on5Hoops,Men,FRA,de COLO Nando,1987-06-23,34.2,77.2,nan,Silver
+TeamSports,5on5Hoops,Men,FRA,FALL Moustapha,1992-02-23,29.5,85.8,nan,Silver
+TeamSports,5on5Hoops,Men,FRA,NTILIKINA Frank,1998-07-28,23.0,78.0,nan,Silver
+TeamSports,5on5Hoops,Men,FRA,POIRIER Vincent,1993-10-17,27.7,83.9,nan,Silver
+TeamSports,5on5Hoops,Men,FRA,YABUSELE Guerschon,1995-12-17,25.7,79.9,nan,Silver
+TeamSports,5on5Hoops,Men,FRA,LUWAWU CABARROT Timothe,1995-05-09,26.2,78.0,nan,Silver
+TeamSports,5on5Hoops,Men,FRA,FOURNIER Evan,1992-10-29,28.7,78.3,nan,Silver
+TeamSports,5on5Hoops,Men,FRA,GOBERT Rudy,1992-06-26,29.1,84.6,nan,Silver
+TeamSports,5on5Hoops,Men,FRA,HEURTEL Thomas,1989-04-10,32.4,74.0,nan,Silver
+TeamSports,5on5Hoops,Men,FRA,CORNELIE Petr,1995-07-26,26.1,83.1,nan,Silver
+TeamSports,5on5Hoops,Men,AUS,BAYNES Aron,1986-12-09,34.7,81.5,nan,Bronze
+TeamSports,5on5Hoops,Men,AUS,DELLAVEDOVA Matthew,1990-09-08,30.8,75.2,nan,Bronze
+TeamSports,5on5Hoops,Men,AUS,SOBEY Nathan,1990-07-14,31.1,74.8,nan,Bronze
+TeamSports,5on5Hoops,Men,AUS,THYBULLE Matisse,1997-03-04,24.3,77.2,nan,Bronze
+TeamSports,5on5Hoops,Men,AUS,REATH Duop Thomas,1996-06-26,25.1,83.1,nan,Bronze
+TeamSports,5on5Hoops,Men,AUS,MILLS Patty,1988-08-11,33.0,72.0,nan,Bronze
+TeamSports,5on5Hoops,Men,AUS,EXUM Dante,1995-07-13,26.1,76.0,nan,Bronze
+TeamSports,5on5Hoops,Men,AUS,GREEN Josh,2000-11-16,20.7,78.0,nan,Bronze
+TeamSports,5on5Hoops,Men,AUS,LANDALE Jock,1995-10-25,25.7,83.1,nan,Bronze
+TeamSports,5on5Hoops,Men,AUS,KAY Nic,1992-08-03,29.0,81.1,nan,Bronze
+TeamSports,5on5Hoops,Men,AUS,INGLES Joe,1987-10-02,33.9,80.3,nan,Bronze
+TeamSports,5on5Hoops,Men,AUS,GOULDING Chris,1988-10-24,32.7,75.6,nan,Bronze
+TeamSports,5on5Hoops,Men,ALL,Men-Basketball,NaT,28.6,78.6,222.6,nan
+TeamSports,CourtVolleyball,Women,USA,WONG-ORANTES Justine,1995-10-06,25.8,66.1,146,Gold
+TeamSports,CourtVolleyball,Women,USA,DREWS Andrea,1993-12-25,27.6,75.2,170,Gold
+TeamSports,CourtVolleyball,Women,USA,AKINRADEWO Foluke,1987-10-05,33.9,75.2,174,Gold
+TeamSports,CourtVolleyball,Women,USA,LARSON Jordan,1986-10-16,34.7,74.0,170,Gold
+TeamSports,CourtVolleyball,Women,USA,HILL Kimberly,1989-11-30,31.7,76.0,nan,Gold
+TeamSports,CourtVolleyball,Women,USA,HANCOCK Micha,1992-11-10,28.7,70.9,168,Gold
+TeamSports,CourtVolleyball,Women,USA,POULTER Jordyn,1997-07-31,24.0,74.0,170,Gold
+TeamSports,CourtVolleyball,Women,USA,BARTSCH-HACKLEY Michelle,1990-02-12,31.5,74.8,172,Gold
+TeamSports,CourtVolleyball,Women,USA,ROBINSON Kelsey,1992-06-25,29.1,74.0,nan,Gold
+TeamSports,CourtVolleyball,Women,USA,WASHINGTON Haleigh,1995-09-22,25.8,74.8,nan,Gold
+TeamSports,CourtVolleyball,Women,USA,THOMPSON Jordan,1997-05-05,24.2,76.0,nan,Gold
+TeamSports,CourtVolleyball,Women,USA,OGBOGU Chiaka,1995-04-15,26.2,74.0,161,Gold
+TeamSports,CourtVolleyball,Women,ALL,Women-VolleyballUSA,NaT,28.7,73.8,166.4,nan
+TeamSports,CourtVolleyball,Men,FRA,CHINENYEZE Barthelemy,1998-02-28,23.5,79.1,176,Gold
+TeamSports,CourtVolleyball,Men,FRA,GREBENNIKOV Jenia,1990-08-13,31.0,74.0,187,Gold
+TeamSports,CourtVolleyball,Men,FRA,TILLIE Kevin,1990-11-02,30.7,78.7,187,Gold
+TeamSports,CourtVolleyball,Men,FRA,NGAPETH Earvin,1991-02-12,30.5,76.4,204,Gold
+TeamSports,CourtVolleyball,Men,FRA,le GOFF Nicolas,1992-02-15,29.5,81.1,247,Gold
+TeamSports,CourtVolleyball,Men,FRA,BULTOR Daryl,1995-11-17,25.7,77.6,nan,Gold
+TeamSports,CourtVolleyball,Men,FRA,CLEVENOT Trevor,1994-06-28,27.1,78.3,nan,Gold
+TeamSports,CourtVolleyball,Men,FRA,LOUATI Yacine,1992-03-04,29.3,78.0,nan,Gold
+TeamSports,CourtVolleyball,Men,FRA,BOYER Stephen,1996-04-10,25.2,77.2,nan,Gold
+TeamSports,CourtVolleyball,Men,FRA,BRIZARD Antoine,1994-05-22,27.2,77.2,nan,Gold
+TeamSports,CourtVolleyball,Men,FRA,TONIUTTI Benjamin,1989-10-30,31.7,72.0,165,Gold
+TeamSports,CourtVolleyball,Men,FRA,PATRY Jean,1996-12-27,24.6,81.5,nan,Gold
+TeamSports,CourtVolleyball,Men,ALL,Men-VolleyballFRA,NaT,28.0,77.6,194.3,nan
+TeamSports,WaterPolo,Men,USA,BOWEN Alex,1993-09-04,27.8,77.2,220.0,6
+TeamSports,WaterPolo,Men,USA,STEVENSON Ben,1995-03-16,26.3,76.0,200.0,6
+TeamSports,WaterPolo,Men,USA,HOLLAND Drew,1995-04-11,26.2,77.2,230.0,6
+TeamSports,WaterPolo,Men,USA,WOODHEAD Dylan,1998-09-25,22.8,79.1,235.0,6
+TeamSports,WaterPolo,Men,USA,DAUBE Hannes,2000-01-05,21.6,78.0,210.0,6
+TeamSports,WaterPolo,Men,USA,SMITH Jesse,1983-04-27,38.2,76.0,240.0,6
+TeamSports,WaterPolo,Men,USA,CUPIDO Luca,1995-11-09,25.7,76.4,210.0,6
+TeamSports,WaterPolo,Men,USA,IRVING Max,1995-05-21,26.2,72.8,185.0,6
+TeamSports,WaterPolo,Men,USA,VAVIC Marko,1999-04-25,22.2,78.0,195.0,6
+TeamSports,WaterPolo,Men,USA,OBERT Alex,1991-12-18,29.7,77.2,225.0,6
+TeamSports,WaterPolo,Men,USA,WOLF Alex,1997-04-19,24.2,79.1,220.0,6
+TeamSports,WaterPolo,Men,USA,HALLOCK Ben,1997-11-22,23.7,78.0,245.0,6
+TeamSports,WaterPolo,Men,USA,HOOPER Johnny,1997-06-24,24.1,74.0,195.0,6
+TeamSports,WaterPolo,Men,ALL,M WaterPolo TeamUSA,1995-08-26,26.1,76.8,216.2,6
+TeamSports,WaterPolo,Men,SRB,ALEKSIC Milan,1986-05-13,35.2,76.0,211.2,Gold
+TeamSports,WaterPolo,Men,SRB,DEDOVIC Nikola,1992-01-25,29.6,nan,nan,Gold
+TeamSports,WaterPolo,Men,SRB,FILIPOVIC Filip,1987-05-02,34.2,77.2,222.2,Gold
+TeamSports,WaterPolo,Men,SRB,JAKSIC Nikola,1997-01-17,24.6,77.6,195.8,Gold
+TeamSports,WaterPolo,Men,SRB,LAZIC Dorde,1996-05-19,25.2,nan,nan,Gold
+TeamSports,WaterPolo,Men,SRB,MANDIC Dusan,1994-06-16,27.2,79.5,231.0,Gold
+TeamSports,WaterPolo,Men,SRB,MITROVIC Branislav,1985-01-30,36.5,79.1,220.0,Gold
+TeamSports,WaterPolo,Men,SRB,MITROVIC Stefan,1988-03-29,33.4,76.8,200.2,Gold
+TeamSports,WaterPolo,Men,SRB,PIJETLOVIC Dusko,1985-04-25,36.2,77.6,213.4,Gold
+TeamSports,WaterPolo,Men,SRB,PIJETLOVIC Gojko,1983-08-07,38.0,76.4,202.4,Gold
+TeamSports,WaterPolo,Men,SRB,PRLAINOVIC Andrija,1987-04-28,34.2,78.7,233.2,Gold
+TeamSports,WaterPolo,Men,SRB,RANDELOVIC Sava,1993-07-17,28.1,76.0,215.6,Gold
+TeamSports,WaterPolo,Men,SRB,RASOVIC Strahinja,1992-03-09,29.3,nan,nan,Gold
+TeamSports,WaterPolo,Men,HUN,ANGYAL Daniel,1992-03-29,29.3,nan,nan,Silver
+TeamSports,WaterPolo,Men,HUN,ERDELYI Balazs,1990-02-16,31.5,77.2,206.8,Silver
+TeamSports,WaterPolo,Men,HUN,HARAI Balazs,1987-04-05,34.4,79.5,242.0,Silver
+TeamSports,WaterPolo,Men,HUN,HOSNYANSZKY Norbert,1984-03-04,37.5,77.2,222.2,Silver
+TeamSports,WaterPolo,Men,HUN,JANSIK Szilard,1994-04-06,27.3,nan,nan,Silver
+TeamSports,WaterPolo,Men,HUN,MANHERCZ Krisztian,1997-02-06,24.5,75.2,200.2,Silver
+TeamSports,WaterPolo,Men,HUN,MEZEI Tamas,1990-09-14,30.8,nan,nan,Silver
+TeamSports,WaterPolo,Men,HUN,NAGY Viktor,1984-07-24,37.0,78.0,211.2,Silver
+TeamSports,WaterPolo,Men,HUN,VAMOS Marton,1992-06-24,29.1,79.5,231.0,Silver
+TeamSports,WaterPolo,Men,HUN,VARGA Denes,1987-03-29,34.4,76.0,211.2,Silver
+TeamSports,WaterPolo,Men,HUN,VOGEL Soma,1997-07-07,24.1,nan,nan,Silver
+TeamSports,WaterPolo,Men,HUN,ZALANKI Gergo,1995-02-26,26.5,75.6,187.0,Silver
+TeamSports,WaterPolo,Men,ALL,M water polo,NaT,29.6,77.2,214.9,nan
+TeamSports,WaterPolo,Women,USA,JOHNSON Ashleigh,1994-09-12,26.8,72.8,178.2,Gold
+TeamSports,WaterPolo,Women,USA,MUSSELMAN Madeline,1998-06-16,23.2,71.3,143.0,Gold
+TeamSports,WaterPolo,Women,USA,SEIDEMANN Melissa,1990-06-26,31.1,72.0,175.0,Gold
+TeamSports,WaterPolo,Women,USA,FATTAL Rachel,1993-12-10,27.7,68.1,143.0,Gold
+TeamSports,WaterPolo,Women,USA,HAUSCHILD Paige,1999-08-17,22.0,70.9,nan,Gold
+TeamSports,WaterPolo,Women,USA,STEFFENS Margaret,1993-06-04,28.2,68.1,162.8,Gold
+TeamSports,WaterPolo,Women,USA,NEUSHUL Jamie,1995-05-12,26.2,66.1,nan,Gold
+TeamSports,WaterPolo,Women,USA,FISCHER Aria,1999-03-02,22.5,72.0,171.6,Gold
+TeamSports,WaterPolo,Women,USA,GILCHRIST Kaleigh,1992-05-16,29.2,69.3,169.4,Gold
+TeamSports,WaterPolo,Women,USA,FISCHER Makenzie,1997-03-29,24.3,73.2,162.8,Gold
+TeamSports,WaterPolo,Women,USA,WILLIAMS Alys,1994-05-28,27.2,70.9,nan,Gold
+TeamSports,WaterPolo,Women,USA,LONGAN Amanda,1997-01-16,24.6,74.0,nan,Gold
+TeamSports,WaterPolo,Women,USA,HARALABIDIS Stephanie,1995-05-19,26.2,70.9,nan,Gold
+TeamSports,WaterPolo,Women,ESP,BACH Marta,1993-02-17,28.5,69.3,nan,Silver
+TeamSports,WaterPolo,Women,ESP,ESPAR LLAQUET Anna,1993-01-08,28.6,70.9,nan,Silver
+TeamSports,WaterPolo,Women,ESP,ESPAR LLAQUET Clara,1994-09-29,26.8,69.7,nan,Silver
+TeamSports,WaterPolo,Women,ESP,ESTER RAMOS Laura,1990-01-22,31.6,67.7,nan,Silver
+TeamSports,WaterPolo,Women,ESP,FORCA ARIZA Judith,1996-06-07,25.2,68.1,nan,Silver
+TeamSports,WaterPolo,Women,ESP,GARCIA GODOY Maica,1990-10-17,30.7,74.0,nan,Silver
+TeamSports,WaterPolo,Women,ESP,GONZALEZ LOPEZ Irene,1996-07-23,25.1,66.9,nan,Silver
+TeamSports,WaterPolo,Women,ESP,LEITON ARRONES Paula,2000-04-27,21.2,74.4,nan,Silver
+TeamSports,WaterPolo,Women,ESP,ORTIZ Bea,1995-06-21,26.2,69.3,nan,Silver
+TeamSports,WaterPolo,Women,ESP,PENA Pili,1986-04-04,35.4,68.9,nan,Silver
+TeamSports,WaterPolo,Women,ESP,SANCHEZ GONZALEZ Maria Elena,1994-10-22,26.7,69.7,nan,Silver
+TeamSports,WaterPolo,Women,ESP,TARRAGO AYMERICH Roser,1993-03-25,28.3,67.3,nan,Silver
+TeamSports,WaterPolo,Women,ESP,RUIZ Elena,2004-10-29,16.7,66.9,nan,Silver
+TeamSports,WaterPolo,Women,ALL,W water polo,NaT,26.6,70.1,161.5,nan
+TeamSports,Football,Men,BRA,SANTOS,1990-03-17,31.3,74.0,184.8,Gold
+TeamSports,Football,Men,BRA,LUCAO,2001-02-26,20.5,73.2,172.0,Gold
+TeamSports,Football,Men,BRA,BRENNO,1999-04-01,22.3,74.8,187.0,Gold
+TeamSports,Football,Men,BRA,MENINO Gabriel,2000-09-29,20.8,69.3,149.6,Gold
+TeamSports,Football,Men,BRA,DIEGO CARLOS,1993-03-15,28.3,71.7,172.0,Gold
+TeamSports,Football,Men,BRA,GRACA Ricardo,1997-02-16,24.5,71.3,nan,Gold
+TeamSports,Football,Men,BRA,DOUGLAS LUIZ,1998-05-09,23.2,70.1,nan,Gold
+TeamSports,Football,Men,BRA,ARANA Guilherme,1997-04-14,24.2,69.3,156.2,Gold
+TeamSports,Football,Men,BRA,PAULINHO,2000-07-15,21.1,70.1,176.0,Gold
+TeamSports,Football,Men,BRA,GUIMARAES Bruno,1997-11-16,23.7,71.7,163.0,Gold
+TeamSports,Football,Men,BRA,CUNHA Matheus,1999-05-27,22.2,71.7,173.8,Gold
+TeamSports,Football,Men,BRA,RICHARLISON,1997-05-10,24.2,70.1,157.0,Gold
+TeamSports,Football,Men,BRA,ANTONY,2000-02-24,21.5,67.7,nan,Gold
+TeamSports,Football,Men,BRA,ALVES Dani,1983-05-06,38.2,67.7,154.0,Gold
+TeamSports,Football,Men,BRA,FUCHS Bruno,1999-04-01,22.3,77.2,nan,Gold
+TeamSports,Football,Men,BRA,NINO,1997-04-10,24.2,73.6,nan,Gold
+TeamSports,Football,Men,BRA,ABNER,2000-05-27,21.2,70.9,nan,Gold
+TeamSports,Football,Men,BRA,MALCOM,1997-02-26,24.5,66.9,143.0,Gold
+TeamSports,Football,Men,BRA,MATHEUS HENRIQUE,1997-12-19,23.7,68.1,155.0,Gold
+TeamSports,Football,Men,BRA,REINIER,2002-01-19,19.6,71.3,nan,Gold
+TeamSports,Football,Men,BRA,CLAUDINHO,1997-01-28,24.5,67.7,nan,Gold
+TeamSports,Football,Men,BRA,MARTINELLI Gabriel,2001-06-18,20.2,70.1,149.6,Gold
+TeamSports,Football,Men,ALL,M Soccer-BRA Team,1997-12-15,23.8,70.3,159,Gold
+TeamSports,Football,Men,ESP,SIMON Unai,1997-06-11,24.2,76.0,190.0,Silver
+TeamSports,Football,Men,ESP,VILLAR Ivan,1997-07-09,24.1,70.9,168.0,Silver
+TeamSports,Football,Men,ESP,FERNANDEZ Alvaro,1998-04-13,23.2,72.8,nan,Silver
+TeamSports,Football,Men,ESP,MINGUEZA Oscar,1999-05-13,22.2,72.8,nan,Silver
+TeamSports,Football,Men,ESP,CUCURELLA Marc,1998-07-22,23.1,68.9,nan,Silver
+TeamSports,Football,Men,ESP,TORRES Pau,1997-01-16,24.6,74.8,176.0,Silver
+TeamSports,Football,Men,ESP,VALLEJO Jesus,1997-01-05,24.6,70.9,nan,Silver
+TeamSports,Football,Men,ESP,ZUBIMENDI Martin,1999-02-02,22.5,70.9,nan,Silver
+TeamSports,Football,Men,ESP,ASENSIO Marco,1996-01-21,25.6,70.9,168.0,Silver
+TeamSports,Football,Men,ESP,MERINO Mikel,1996-06-22,25.1,70.9,nan,Silver
+TeamSports,Football,Men,ESP,MIR Rafa,1997-06-18,24.2,70.9,nan,Silver
+TeamSports,Football,Men,ESP,CEBALLOS Dani,1996-08-07,25.0,69.3,143.0,Silver
+TeamSports,Football,Men,ESP,OYARZABAL Mikel,1997-04-21,24.2,70.9,nan,Silver
+TeamSports,Football,Men,ESP,GARCIA Eric,2001-01-09,20.6,69.3,166.0,Silver
+TeamSports,Football,Men,ESP,SOLER Carlos,1997-01-02,24.6,69.3,159.0,Silver
+TeamSports,Football,Men,ESP,MONCAYOLA Jon,1998-05-13,23.2,70.9,nan,Silver
+TeamSports,Football,Men,ESP,GONZALEZ Pedri,2002-11-25,18.7,68.9,132.0,Silver
+TeamSports,Football,Men,ESP,PUADO Javier,1998-05-25,23.2,69.7,153.0,Silver
+TeamSports,Football,Men,ESP,GIL Oscar,1998-04-26,23.2,70.9,nan,Silver
+TeamSports,Football,Men,ESP,OLMO Dani,1998-05-07,23.2,72.8,nan,Silver
+TeamSports,Football,Men,ESP,MIRANDA Juan,2000-01-19,21.6,72.8,nan,Silver
+TeamSports,Football,Men,ESP,GIL Bryan,2001-02-11,20.5,68.9,nan,Silver
+TeamSports,Football,Men,MEX,MALAGON Luis,1997-03-02,24.5,71.3,173.8,Bronze
+TeamSports,Football,Men,MEX,OCHOA Guillermo,1985-07-13,36.0,72.0,nan,Bronze
+TeamSports,Football,Men,MEX,JURADO Sebastian,1997-09-28,23.8,74.0,nan,Bronze
+TeamSports,Football,Men,MEX,SANCHEZ Jorge,1997-12-10,23.7,68.9,168.0,Bronze
+TeamSports,Football,Men,MEX,MONTES Cesar,1997-02-24,24.5,75.2,nan,Bronze
+TeamSports,Football,Men,MEX,ANGULO Jesus,1998-01-30,23.5,70.1,nan,Bronze
+TeamSports,Football,Men,MEX,VASQUEZ Johan,1998-10-22,22.7,71.7,nan,Bronze
+TeamSports,Football,Men,MEX,LORONA Vladimir,1998-11-16,22.7,70.9,nan,Bronze
+TeamSports,Football,Men,MEX,ROMO Luis,1995-06-05,26.2,72.0,185.0,Bronze
+TeamSports,Football,Men,MEX,RODRIGUEZ Carlos,1997-01-03,24.6,68.1,146.0,Bronze
+TeamSports,Football,Men,MEX,MARTIN Henry,1992-11-18,28.7,70.9,161.0,Bronze
+TeamSports,Football,Men,MEX,LAINEZ Diego,2000-06-09,21.2,66.1,128.0,Bronze
+TeamSports,Football,Men,MEX,VEGA Alexis,1997-11-25,23.7,68.9,nan,Bronze
+TeamSports,Football,Men,MEX,MORA Adrian,1997-08-15,24.0,72.8,nan,Bronze
+TeamSports,Football,Men,MEX,AGUIRRE Erick,1997-02-23,24.5,67.3,nan,Bronze
+TeamSports,Football,Men,MEX,ANTUNA Uriel,1997-08-21,24.0,65.7,nan,Bronze
+TeamSports,Football,Men,MEX,ESQUIVEL Joaquin,1998-01-07,23.6,68.1,nan,Bronze
+TeamSports,Football,Men,MEX,CORDOVA Sebastian,1997-06-12,24.2,68.9,146.0,Bronze
+TeamSports,Football,Men,MEX,AGUIRRE Eduardo,1998-08-03,23.0,69.3,nan,Bronze
+TeamSports,Football,Men,MEX,ANGULO Ricardo,1997-02-20,24.5,66.9,nan,Bronze
+TeamSports,Football,Men,MEX,BELTRAN Fernando,1998-05-08,23.2,65.0,nan,Bronze
+TeamSports,Football,Men,MEX,ALVARADO Roberto,1998-09-07,22.8,69.3,nan,Bronze
+TeamSports,Football,Men,ALL,M Soccer-outfield,NaT,23.8,70.1,157.1,Gold
+TeamSports,Football,Men,ALL,M Soccer-keepers,NaT,nan,73.2,179.3,Gold
+TeamSports,Football,Women,CAN,LABBE Stephanie,1986-10-10,34.9,70.1,nan,Gold
+TeamSports,Football,Women,CAN,SHERIDAN Kailen,1995-07-16,26.1,69.3,nan,Gold
+TeamSports,Football,Women,CAN,McLEOD Erin,1983-02-26,38.5,68.5,nan,Gold
+TeamSports,Football,Women,CAN,CHAPMAN Allysha,1989-01-25,32.5,63.0,nan,Gold
+TeamSports,Football,Women,CAN,BUCHANAN Kadeisha,1995-11-05,25.7,66.9,nan,Gold
+TeamSports,Football,Women,CAN,ZADORSKY Shelina,1992-10-24,28.7,67.7,nan,Gold
+TeamSports,Football,Women,CAN,QUINN,1995-08-11,26.0,68.9,nan,Gold
+TeamSports,Football,Women,CAN,ROSE Deanne,1999-03-03,22.3,64.2,nan,Gold
+TeamSports,Football,Women,CAN,GROSSO Julia,2000-08-29,21.0,66.9,nan,Gold
+TeamSports,Football,Women,CAN,RIVIERE Jayde,2001-01-22,20.6,64.2,nan,Gold
+TeamSports,Football,Women,CAN,LEON Adriana,1992-10-02,28.8,63.0,nan,Gold
+TeamSports,Football,Women,CAN,LAWRENCE Ashley,1995-06-11,26.2,64.6,nan,Gold
+TeamSports,Football,Women,CAN,SCOTT Desiree,1987-07-31,34.0,61.4,nan,Gold
+TeamSports,Football,Women,CAN,SINCLAIR Christine,1983-06-12,38.2,69.3,148.0,Gold
+TeamSports,Football,Women,CAN,VIENS Evelyne,1997-02-06,24.5,68.1,nan,Gold
+TeamSports,Football,Women,CAN,GILLES Vanessa,1996-03-11,25.3,66.9,nan,Gold
+TeamSports,Football,Women,CAN,PRINCE Nichelle,1995-02-19,26.5,64.2,nan,Gold
+TeamSports,Football,Women,CAN,BECKIE Janine,1994-08-20,27.0,68.1,nan,Gold
+TeamSports,Football,Women,CAN,FLEMING Jessie,1998-03-11,23.3,64.6,nan,Gold
+TeamSports,Football,Women,CAN,HUITEMA Jordyn,2001-05-08,20.2,71.3,nan,Gold
+TeamSports,Football,Women,CAN,SCHMIDT Sophie,1988-06-28,33.0,67.7,nan,Gold
+TeamSports,Football,Women,CAN,CARLE Gabrielle,1998-10-12,22.7,66.1,nan,Gold
+TeamSports,Football,Women,SWE,LINDAHL Hedvig,1983-04-29,38.2,70.5,nan,Silver
+TeamSports,Football,Women,SWE,FALK Jennifer,1993-04-26,28.2,67.3,nan,Silver
+TeamSports,Football,Women,SWE,MUSOVIC Zecira,1996-05-26,25.2,70.1,nan,Silver
+TeamSports,Football,Women,SWE,ANDERSSON Jonna,1993-01-02,28.6,65.7,nan,Silver
+TeamSports,Football,Women,SWE,KULLBERG Emma,1991-09-25,29.8,66.9,nan,Silver
+TeamSports,Football,Women,SWE,GLAS Hanna,1993-04-16,28.2,67.7,nan,Silver
+TeamSports,Football,Women,SWE,BENNISON Hanna,2002-10-16,18.7,59.8,nan,Silver
+TeamSports,Football,Women,SWE,ERIKSSON Magdalena,1993-09-08,27.8,67.7,nan,Silver
+TeamSports,Football,Women,SWE,JANOGY Madelen,1995-11-12,25.7,64.6,nan,Silver
+TeamSports,Football,Women,SWE,HURTIG Lina,1995-09-05,25.8,70.9,nan,Silver
+TeamSports,Football,Women,SWE,ASLLANI Kosovare,1989-07-29,32.0,65.4,nan,Silver
+TeamSports,Football,Women,SWE,JAKOBSSON Sofia,1990-04-23,31.2,68.5,nan,Silver
+TeamSports,Football,Women,SWE,BLACKSTENIUS Stina,1996-02-05,25.5,68.5,nan,Silver
+TeamSports,Football,Women,SWE,ILESTEDT Amanda,1993-01-17,28.6,70.1,nan,Silver
+TeamSports,Football,Women,SWE,BJORN Nathalie,1997-05-04,24.2,68.5,nan,Silver
+TeamSports,Football,Women,SWE,SCHOUGH Olivia,1991-03-11,30.3,67.7,nan,Silver
+TeamSports,Football,Women,SWE,ANGELDAL Filippa,1997-07-14,24.1,66.9,nan,Silver
+TeamSports,Football,Women,SWE,SEGER Caroline,1985-03-19,36.4,68.1,nan,Silver
+TeamSports,Football,Women,SWE,ROLFO Fridolina,1993-11-24,27.7,70.1,nan,Silver
+TeamSports,Football,Women,SWE,ANVEGARD Anna,1997-05-10,24.2,65.7,nan,Silver
+TeamSports,Football,Women,SWE,RODDAR Julia,1992-02-16,29.5,65.7,nan,Silver
+TeamSports,Football,Women,SWE,BLOMQVIST Rebecka,1997-07-24,24.1,65.7,nan,Silver
+TeamSports,Football,Women,USA,NAEHER Alyssa,1988-04-20,33.2,68.9,nan,Bronze
+TeamSports,Football,Women,USA,FRANCH Adrianna,1990-11-12,30.7,68.5,nan,Bronze
+TeamSports,Football,Women,USA,CAMPBELL Jane,1995-02-17,26.5,68.9,nan,Bronze
+TeamSports,Football,Women,USA,DUNN Crystal,1992-07-03,29.1,61.8,nan,Bronze
+TeamSports,Football,Women,USA,MEWIS Samantha,1992-10-09,28.7,70.9,nan,Bronze
+TeamSports,Football,Women,USA,SAUERBRUNN Becky,1985-06-06,36.2,66.9,nan,Bronze
+TeamSports,Football,Women,USA,O'HARA Kelley,1988-08-04,33.0,65.0,nan,Bronze
+TeamSports,Football,Women,USA,MEWIS Kristie,1991-02-25,30.5,66.9,nan,Bronze
+TeamSports,Football,Women,USA,HEATH Tobin,1988-05-29,33.2,63.8,nan,Bronze
+TeamSports,Football,Women,USA,ERTZ Julie,1992-04-06,29.3,66.9,nan,Bronze
+TeamSports,Football,Women,USA,HORAN Lindsey,1994-05-26,27.2,68.9,nan,Bronze
+TeamSports,Football,Women,USA,LLOYD Carli,1982-07-16,39.0,67.7,nan,Bronze
+TeamSports,Football,Women,USA,PRESS Christen,1988-12-29,32.5,66.9,nan,Bronze
+TeamSports,Football,Women,USA,DAVIDSON Tierna,1998-09-19,22.8,69.7,nan,Bronze
+TeamSports,Football,Women,USA,MORGAN Alex,1989-07-02,32.0,66.9,nan,Bronze
+TeamSports,Football,Women,USA,SONNETT Emily,1993-11-25,27.7,66.9,nan,Bronze
+TeamSports,Football,Women,USA,RAPINOE Megan,1985-07-05,36.0,65.7,nan,Bronze
+TeamSports,Football,Women,USA,LAVELLE Rose,1995-05-14,26.2,63.8,nan,Bronze
+TeamSports,Football,Women,USA,DAHLKEMPER Abby,1993-05-13,28.2,66.9,nan,Bronze
+TeamSports,Football,Women,USA,MACARIO Catarina,1999-10-04,21.8,65.0,nan,Bronze
+TeamSports,Football,Women,USA,KRUEGER Casey,1990-08-23,31.0,66.1,nan,Bronze
+TeamSports,Football,Women,USA,WILLIAMS Lynn,1993-05-21,28.2,68.1,nan,Bronze
+TeamSports,Football,Women,GBR,ROEBUCK Ellie,1999-09-23,21.8,68.5,nan,7
+TeamSports,Football,Women,GBR,TELFORD Carly,1987-07-07,34.0,68.5,nan,7
+TeamSports,Football,Women,GBR,MACIVER Sandy,1998-06-18,23.2,69.3,nan,7
+TeamSports,Football,Women,GBR,BRONZE Lucy,1991-10-28,29.7,67.3,nan,7
+TeamSports,Football,Women,GBR,STOKES Demi,1991-12-12,29.7,62.6,nan,7
+TeamSports,Football,Women,GBR,WALSH Keira,1997-04-08,24.3,65.7,nan,7
+TeamSports,Football,Women,GBR,HOUGHTON Steph,1988-04-23,33.2,68.5,nan,7
+TeamSports,Football,Women,GBR,INGLE Sophie,1991-09-02,30.0,65.7,nan,7
+TeamSports,Football,Women,GBR,PARRIS Nikita,1994-03-10,27.3,63.8,nan,7
+TeamSports,Football,Women,GBR,LITTLE Kim,1990-06-29,31.1,64.2,nan,7
+TeamSports,Football,Women,GBR,WHITE Ellen,1989-05-09,32.2,66.9,nan,7
+TeamSports,Football,Women,GBR,KIRBY Fran,1993-06-29,28.1,62.2,nan,7
+TeamSports,Football,Women,GBR,WEIR Caroline,1995-06-20,26.2,67.7,nan,7
+TeamSports,Football,Women,GBR,DALY Rachel,1991-12-06,29.7,65.7,nan,7
+TeamSports,Football,Women,GBR,BRIGHT Millie,1993-08-21,28.0,70.1,nan,7
+TeamSports,Football,Women,GBR,HEMP Lauren,2000-08-07,21.0,64.6,nan,7
+TeamSports,Football,Women,GBR,WILLIAMSON Leah,1997-03-29,24.3,66.9,nan,7
+TeamSports,Football,Women,GBR,STANWAY Georgia,1999-01-03,22.6,63.8,nan,7
+TeamSports,Football,Women,GBR,SCOTT Jill,1987-02-02,34.5,71.3,nan,7
+TeamSports,Football,Women,GBR,CHARLES Niamh,1999-06-21,22.1,67.7,nan,7
+TeamSports,Football,Women,GBR,TOONE Ella,1999-09-02,21.8,64.2,nan,7
+TeamSports,Football,Women,GBR,WUBBEN-MOY Lotte,1999-01-11,22.6,70.1,nan,7
+TeamSports,Football,Women,NED,van VEENENDAAL Sari,1990-04-03,31.3,70.9,nan,5
+TeamSports,Football,Women,NED,KOP Lize,1998-03-17,23.3,68.1,nan,5
+TeamSports,Football,Women,NED,GEURTS Loes,1986-01-12,35.5,66.1,nan,5
+TeamSports,Football,Women,NED,WILMS Lynn,2000-10-03,20.8,69.3,nan,5
+TeamSports,Football,Women,NED,van der GRAGT Stefanie,1992-08-16,29.0,70.1,nan,5
+TeamSports,Football,Women,NED,NOUWEN Aniek,1999-03-09,22.3,68.5,nan,5
+TeamSports,Football,Women,NED,van DONGEN Merel,1993-02-11,28.5,66.9,nan,5
+TeamSports,Football,Women,NED,ROORD Jill,1997-04-22,24.2,68.9,nan,5
+TeamSports,Football,Women,NED,van de SANDEN Shanice,1992-10-02,28.8,66.1,nan,5
+TeamSports,Football,Women,NED,SMITS Joelle,2000-02-07,21.5,66.1,nan,5
+TeamSports,Football,Women,NED,MIEDEMA Vivianne,1996-07-15,25.1,68.9,nan,5
+TeamSports,Football,Women,NED,van de DONK Danielle,1991-08-05,30.0,63.0,nan,5
+TeamSports,Football,Women,NED,MARTENS Lieke,1992-12-16,28.7,66.9,nan,5
+TeamSports,Football,Women,NED,FOLKERTSMA Sisca,1997-05-21,24.2,67.3,nan,5
+TeamSports,Football,Women,NED,PELOVA Victoria,1999-06-03,22.2,64.2,nan,5
+TeamSports,Football,Women,NED,GROENEN Jackie van,1994-12-17,26.7,65.0,nan,5
+TeamSports,Football,Women,NED,ES Kika,1991-10-11,29.7,66.5,nan,5
+TeamSports,Football,Women,NED,JANSSEN Dominique,1995-01-17,26.6,68.9,nan,5
+TeamSports,Football,Women,NED,BEERENSTEYN Lineth,1996-10-11,24.7,63.8,nan,5
+TeamSports,Football,Women,NED,JANSEN Renate,1990-12-07,30.7,65.4,nan,5
+TeamSports,Football,Women,NED,KAAGMAN Inessa,1996-04-17,25.2,66.9,nan,5
+TeamSports,Football,Women,ALL,Women-Soccer-outfield,1993-10-08,28.0,66.6,134.5,nan
+TeamSports,Football,Women,ALL,Women-Soccer-keepers,1992-11-13,28.8,68.8,139,nan
+TeamSports,Baseball,Men,USA,ALLEN Nick,1998-10-08,22.7,79.9,nan,Silver
+TeamSports,Baseball,Men,USA,ALVAREZ Eddy,1990-01-30,31.5,68.9,nan,Silver
+TeamSports,Baseball,Men,USA,AUSTIN Tyler,1991-09-06,29.8,74.0,nan,Silver
+TeamSports,Baseball,Men,USA,CARTER Anthony,1986-04-04,35.4,75.2,nan,Silver
+TeamSports,Baseball,Men,USA,CASAS Triston,2000-01-15,21.6,77.2,nan,Silver
+TeamSports,Baseball,Men,USA,DICKSON Brandon,1984-11-03,36.7,77.2,nan,Silver
+TeamSports,Baseball,Men,USA,FEDEROWICZ Tim,1987-08-05,34.0,70.1,nan,Silver
+TeamSports,Baseball,Men,USA,FILIA Eric,1992-07-06,29.1,72.0,nan,Silver
+TeamSports,Baseball,Men,USA,FRAZIER Todd,1986-02-12,35.5,75.2,nan,Silver
+TeamSports,Baseball,Men,USA,KOLOZSVARY Mark,1995-09-04,25.8,68.1,nan,Silver
+TeamSports,Baseball,Men,USA,LOPEZ Jack,1992-12-16,28.7,70.1,nan,Silver
+TeamSports,Baseball,Men,USA,McGOUGH Scott,1989-10-31,31.7,70.9,nan,Silver
+TeamSports,Baseball,Men,USA,WESTBROOK Jamie,1995-06-18,26.2,68.9,nan,Silver
+TeamSports,Baseball,Men,USA,WOODS RICHARDSON Simeon,2000-09-27,20.8,75.2,nan,Silver
+TeamSports,Baseball,Men,USA,STARLING Bubba,1992-08-03,29.0,76.0,nan,Silver
+TeamSports,Baseball,Men,USA,RYAN Ryder,1995-05-11,26.2,74.0,nan,Silver
+TeamSports,Baseball,Men,USA,ROBERTSON David,1985-04-09,36.4,70.9,nan,Silver
+TeamSports,Baseball,Men,USA,GOSE Anthony,1990-08-10,31.0,72.0,nan,Silver
+TeamSports,Baseball,Men,USA,JACKSON JR Edwin,1983-09-09,37.9,74.0,nan,Silver
+TeamSports,Baseball,Men,USA,MARTINEZ Nick,1990-08-05,31.0,68.1,nan,Silver
+TeamSports,Baseball,Men,USA,KIVLEHAN Patrick,1989-12-22,31.6,74.0,nan,Silver
+TeamSports,Baseball,Men,USA,KAZMIR Scott,1984-01-24,37.5,72.0,nan,Silver
+TeamSports,Baseball,Men,USA,BAZ Shane,1999-06-17,22.2,74.0,nan,Silver
+TeamSports,Baseball,Men,USA,RYAN Joe,1996-06-05,25.2,74.0,nan,Silver
+TeamSports,Baseball,Men,ALL,M Baseball USA,NaT,29.8,73.0,nan,Silver
+TeamSports,Softball,Women,USA,ABBOTT Monica,1985-07-28,36.0,75.2,nan,Silver
+TeamSports,Softball,Women,USA,ARIOTO Valerie,1989-04-10,32.4,66.9,nan,Silver
+TeamSports,Softball,Women,USA,CARDA Ally,1993-01-15,28.6,68.1,nan,Silver
+TeamSports,Softball,Women,USA,CHIDESTER Amanda,1990-04-11,31.2,68.9,nan,Silver
+TeamSports,Softball,Women,USA,AGUILAR Ali,1995-08-28,26.0,66.9,nan,Silver
+TeamSports,Softball,Women,USA,GARCIA Rachel,1997-03-30,24.3,66.1,nan,Silver
+TeamSports,Softball,Women,USA,MULIPOLA Dejah,1998-02-19,23.5,68.1,nan,Silver
+TeamSports,Softball,Women,USA,Mc CLENEY Haylie,1994-07-11,27.1,64.2,nan,Silver
+TeamSports,Softball,Women,USA,MOULTRIE Michelle,1990-07-13,31.1,63.0,nan,Silver
+TeamSports,Softball,Women,USA,MUNRO Aubree,1993-10-04,27.8,70.1,nan,Silver
+TeamSports,Softball,Women,USA,NICKLES Bubba,1998-03-08,23.3,68.1,nan,Silver
+TeamSports,Softball,Women,USA,OSTERMAN Cat,1983-04-16,38.2,74.0,nan,Silver
+TeamSports,Softball,Women,USA,REED Janie,1993-04-15,28.2,68.1,nan,Silver
+TeamSports,Softball,Women,USA,SPAULDING Delaney,1995-05-09,26.2,66.9,nan,Silver
+TeamSports,Softball,Women,USA,STEWART Kelsey,1994-08-15,27.0,66.1,nan,Silver
+TeamSports,Softball,Women,ALL,W Softball USA,NaT,28.7,68.1,nan,Silver
+TeamSports,RugbySevens,Men,FIJI,VAKURUNABILI Josua,1992-06-10,29.2,77.2,243.0,Gold
+TeamSports,RugbySevens,Men,FIJI,BALEIWAIRIKI Iosefo Masikau,1998-05-09,23.2,74.8,198.0,Gold
+TeamSports,RugbySevens,Men,FIJI,NASOKO Kalione,1990-12-02,30.7,76.8,236.0,Gold
+TeamSports,RugbySevens,Men,FIJI,WAINIQOLO Jiuta,1999-03-10,22.3,73.6,198.0,Gold
+TeamSports,RugbySevens,Men,FIJI,TUIVUAKA Asaeli,1995-12-22,25.6,68.9,216.0,Gold
+TeamSports,RugbySevens,Men,FIJI,DERENALAGI Meli,1998-11-26,22.7,74.8,214.0,Gold
+TeamSports,RugbySevens,Men,FIJI,BOTITU Vilimoni,1998-06-15,23.2,66.9,176.0,Gold
+TeamSports,RugbySevens,Men,FIJI,NACUQU Waisea,1993-05-24,28.2,66.9,183.0,Gold
+TeamSports,RugbySevens,Men,FIJI,TUWAI Jerry,1989-03-23,32.4,66.9,181.0,Gold
+TeamSports,RugbySevens,Men,FIJI,RADRADRA Semi,1992-06-13,29.2,74.8,205.0,Gold
+TeamSports,RugbySevens,Men,FIJI,TUIMABA Aminiasi,1995-03-26,26.3,69.7,205.0,Gold
+TeamSports,RugbySevens,Men,FIJI,BOLACA Napolioni,1996-10-20,24.7,70.9,181.0,Gold
+TeamSports,RugbySevens,Men,FIJI,MAQALA Sireli,2000-03-20,21.3,65.7,185.0,Gold
+TeamSports,RugbySevens,Men,ALL,Men-RugbySevensFIJI,NaT,26.1,71.4,201.6,Gold
+TeamSports,RugbySevens,Men,NZL,CURRY Scott,1988-05-17,33.2,76.4,212.0,Silver
+TeamSports,RugbySevens,Men,NZL,MIKKELSON Tim,1986-08-13,35.0,76.4,223.0,Silver
+TeamSports,RugbySevens,Men,NZL,NG SHIU Tone,1994-05-26,27.2,74.4,216.0,Silver
+TeamSports,RugbySevens,Men,NZL,NANAI-SETURO Etene,1999-08-20,22.0,73.2,216.0,Silver
+TeamSports,RugbySevens,Men,NZL,COLLIER Dylan,1991-04-27,30.2,76.4,223.0,Silver
+TeamSports,RugbySevens,Men,NZL,McGARVEY-BLACK Ngarohi,1996-05-20,25.2,73.2,190.0,Silver
+TeamSports,RugbySevens,Men,NZL,NICOLE Amanaki,1992-02-08,29.5,74.8,218.0,Silver
+TeamSports,RugbySevens,Men,NZL,KNEWSTUBB Andrew,1995-09-14,25.8,74.0,194.0,Silver
+TeamSports,RugbySevens,Men,NZL,WARE Regan,1994-08-07,27.0,74.0,196.0,Silver
+TeamSports,RugbySevens,Men,NZL,BAKER Kurt,1988-10-07,32.9,73.2,203.0,Silver
+TeamSports,RugbySevens,Men,NZL,WEBBER Joe,1993-08-27,28.0,73.2,203.0,Silver
+TeamSports,RugbySevens,Men,NZL,MOLIA Sione,1993-09-05,27.8,74.4,203.0,Silver
+TeamSports,RugbySevens,Men,NZL,WARBRICK William,1998-03-06,23.3,76.4,220.0,Silver
+TeamSports,RugbySevens,Men,ALL,Men-RugbySevensNZL,NaT,28.2,74.6,209.0,Silver
+TeamSports,RugbySevens,Men,USA,ISLES Carlin,NaT,31.0,69.7,172.0,nan
+TeamSports,RugbySevens,Men,USA,THOMPSON Brett,NaT,30.0,76.8,218.0,nan
+TeamSports,RugbySevens,Men,USA,BARRETT Danny,NaT,31.0,72.8,234.0,nan
+TeamSports,RugbySevens,Men,USA,LEUTA Matai,NaT,31.0,74.4,234.0,nan
+TeamSports,RugbySevens,Men,USA,SCHROEDER Joe,NaT,28.0,76.8,225.0,nan
+TeamSports,RugbySevens,Men,USA,WILLIAMS Kevon,NaT,30.0,68.9,185.0,nan
+TeamSports,RugbySevens,Men,USA,NIUA Folau,NaT,36.0,71.7,196.0,nan
+TeamSports,RugbySevens,Men,USA,BROWN Maceo,NaT,25.0,72.8,203.0,nan
+TeamSports,RugbySevens,Men,USA,TOMASIN Steve,NaT,26.0,70.9,194.0,nan
+TeamSports,RugbySevens,Men,USA,HUGHES Madison,NaT,28.0,68.9,179.0,nan
+TeamSports,RugbySevens,Men,USA,BAKER Perry,NaT,35.0,72.8,179.0,nan
+TeamSports,RugbySevens,Men,USA,IOSEFO Martin,NaT,31.0,72.8,234.0,nan
+TeamSports,RugbySevens,Men,USA,MELPHY Cody,NaT,28.0,68.9,194.0,nan
+TeamSports,RugbySevens,Men,ALL,Men-RugbySevensUSA,NaT,30.0,72.2,203.6,nan
+TeamSports,RugbySevens,Men,ALL,Men-RugbySevensFIJI-NZL-USA,1993-08-20,28.1,72.7,204.7,nan
+TeamSports,RugbySevens,Women,NZL,BLYDE Michaela,1995-12-29,25.6,65.0,nan,Gold
+TeamSports,RugbySevens,Women,NZL,BRAZIER Kelly,1989-10-28,31.7,68.1,154.0,Gold
+TeamSports,RugbySevens,Women,NZL,BROUGHTON Gayle,1996-06-05,25.2,68.5,154.0,Gold
+TeamSports,RugbySevens,Women,NZL,FITZPATRICK Theresa,1995-02-25,26.5,66.1,165.0,Gold
+TeamSports,RugbySevens,Women,NZL,FLUHLER Stacey,1995-11-03,25.7,68.1,nan,Gold
+TeamSports,RugbySevens,Women,NZL,HIRINI Sarah,1992-12-09,28.7,69.7,nan,Gold
+TeamSports,RugbySevens,Women,NZL,KAKA Shiray,1995-03-26,26.3,66.1,nan,Gold
+TeamSports,RugbySevens,Women,NZL,NATHAN-WONG Tyla,1994-07-01,27.1,65.0,nan,Gold
+TeamSports,RugbySevens,Women,NZL,POURI-LANE Risi,2000-05-28,21.2,64.6,nan,Gold
+TeamSports,RugbySevens,Women,NZL,SAILI Alena,1998-12-13,22.7,70.9,nan,Gold
+TeamSports,RugbySevens,Women,NZL,TUI Ruby,1991-12-13,29.7,69.7,156.2,Gold
+TeamSports,RugbySevens,Women,NZL,WILLISON Tenika,1997-12-07,23.7,65.7,nan,Gold
+TeamSports,RugbySevens,Women,NZL,WOODMAN Portia,1991-07-12,30.1,67.7,162.8,Gold
+TeamSports,RugbySevens,Women,ALL,Women-RugbySevensNZL,NaT,26.5,67.3,158.4,Gold
+TeamSports,FieldHockey,Men,BEL,BOCCARD Gauthier,1991-08-26,30.0,73.2,173.8,Gold
+TeamSports,FieldHockey,Men,BEL,de KERPEL Nicolas,1993-03-23,28.3,nan,nan,Gold
+TeamSports,FieldHockey,Men,BEL,de SLOOVER Arthur Anne-Marie Thierr,1997-05-03,24.2,nan,nan,Gold
+TeamSports,FieldHockey,Men,BEL,HENDRICKX Alexander Robby P,1993-08-06,28.0,nan,nan,Gold
+TeamSports,FieldHockey,Men,BEL,LUYPAERT Loick Fanny A,1991-08-19,30.0,71.3,171.6,Gold
+TeamSports,FieldHockey,Men,BEL,van AUBEL Florent,1991-10-25,29.7,70.1,160.6,Gold
+TeamSports,FieldHockey,Men,BEL,VANASCH Vincent,1987-12-21,33.7,70.9,171.6,Gold
+TeamSports,FieldHockey,Men,BEL,BOON Tom Alain,1990-01-25,31.6,72.4,178.2,Gold
+TeamSports,FieldHockey,Men,BEL,BRIELS Thomas,1987-08-23,34.0,67.7,156.2,Gold
+TeamSports,FieldHockey,Men,BEL,CHARLIER Cedric Daniel Andre,1987-11-27,33.7,71.3,178.2,Gold
+TeamSports,FieldHockey,Men,BEL,DENAYER Felix Veronique B.,1990-01-31,31.5,75.2,187.0,Gold
+TeamSports,FieldHockey,Men,BEL,DOCKIER Sebastien,1989-12-28,31.6,68.9,162.8,Gold
+TeamSports,FieldHockey,Men,BEL,GOUGNARD Simon Pierre F,1991-01-17,30.6,73.6,184.8,Gold
+TeamSports,FieldHockey,Men,BEL,KINA Antoine Sylvain T,1996-02-13,25.5,nan,nan,Gold
+TeamSports,FieldHockey,Men,BEL,MEURMANS Augustin Jean J,1997-05-29,24.2,nan,nan,Gold
+TeamSports,FieldHockey,Men,BEL,WEGNEZ Victor Nicky B,1995-12-25,25.6,nan,nan,Gold
+TeamSports,FieldHockey,Men,BEL,van DOREN Arthur,1994-10-01,26.8,70.1,162.8,Gold
+TeamSports,FieldHockey,Men,BEL,DOHMEN John-John Dominique M,1988-01-24,33.5,68.5,151.8,Gold
+TeamSports,FieldHockey,Men,ALL,Men-FieldHockeyBEL,NaT,29.6,71,169.8,Gold
+TeamSports,FieldHockey,Women,NED,MATLA Frederique,1996-12-28,24.6,nan,nan,Gold
+TeamSports,FieldHockey,Women,NED,MOES Freeke,1998-11-29,22.7,67.3,0.0,Gold
+TeamSports,FieldHockey,Women,NED,NUNNINK Laura Maria,1995-01-26,26.6,nan,nan,Gold
+TeamSports,FieldHockey,Women,NED,PHENINCKX Malou,1991-07-24,30.1,nan,nan,Gold
+TeamSports,FieldHockey,Women,NED,SANDERS Pien,1998-06-11,23.2,nan,nan,Gold
+TeamSports,FieldHockey,Women,NED,STAM Lauren Lara Jeanette,1994-01-30,27.5,nan,nan,Gold
+TeamSports,FieldHockey,Women,NED,van GEFFEN Margot,1989-11-23,31.7,67.7,138.6,Gold
+TeamSports,FieldHockey,Women,NED,van GILS Stella Dianne,1999-08-04,22.0,nan,nan,Gold
+TeamSports,FieldHockey,Women,NED,van MAASAKKER Caia Jacqueline,1989-04-05,32.4,70.9,151.8,Gold
+TeamSports,FieldHockey,Women,NED,VERSCHOOR Maria,1994-04-22,27.2,64.6,127.6,Gold
+TeamSports,FieldHockey,Women,NED,WELTEN Lidewij Marsia Maria,1990-07-16,31.1,66.9,140.8,Gold
+TeamSports,FieldHockey,Women,NED,ALBERS Felice,1999-12-27,21.6,nan,nan,Gold
+TeamSports,FieldHockey,Women,NED,de GOEDE Eva Roma Maria,1989-03-23,32.4,66.9,134.2,Gold
+TeamSports,FieldHockey,Women,NED,de WAARD Xan Gerdien,1995-11-08,25.7,64.2,121.0,Gold
+TeamSports,FieldHockey,Women,NED,KEETELS Marloes Johanna Maria,1993-05-04,28.2,67.7,145.2,Gold
+TeamSports,FieldHockey,Women,NED,KONING Josine,1995-09-02,26.0,nan,nan,Gold
+TeamSports,FieldHockey,Women,NED,KOOLEN Sanne Anne Leonie,1996-03-23,25.3,70.5,nan,Gold
+TeamSports,FieldHockey,Women,NED,LEURINK Laurien,1994-11-13,26.7,68.1,147.4,Gold
+TeamSports,FieldHockey,Women,ALL,Women-FieldHockeyNED,NaT,27.0,67.5,123.0,Gold
+TeamSports,Handball,Men,FRA,ABALO Luc,1984-09-06,36.9,72.0,nan,Gold
+TeamSports,Handball,Men,FRA,DESCAT Hugo,1992-08-16,29.0,71.7,nan,Gold
+TeamSports,Handball,Men,FRA,FABREGAS Ludovic,1996-07-01,25.1,78.0,nan,Gold
+TeamSports,Handball,Men,FRA,GENTY Yann,1981-12-26,39.5,72.8,nan,Gold
+TeamSports,Handball,Men,FRA,GERARD Vincent,1986-12-16,34.7,74.8,nan,Gold
+TeamSports,Handball,Men,FRA,GUIGOU Michael,1982-01-28,39.5,70.9,nan,Gold
+TeamSports,Handball,Men,FRA,KARABATIC Nikola,1984-04-11,37.4,77.2,nan,Gold
+TeamSports,Handball,Men,FRA,KARABATIC Luka,1988-04-19,33.2,79.5,nan,Gold
+TeamSports,Handball,Men,FRA,LAGARDE Romain,1997-03-05,24.3,76.4,nan,Gold
+TeamSports,Handball,Men,FRA,MAHE Kentin,1991-05-22,30.2,73.2,nan,Gold
+TeamSports,Handball,Men,FRA,MEM Dika,1997-08-31,24.0,76.4,nan,Gold
+TeamSports,Handball,Men,FRA,NGUESSAN Timothey,1992-09-18,28.8,77.2,nan,Gold
+TeamSports,Handball,Men,FRA,PORTE Valentin,1990-09-07,30.8,74.8,nan,Gold
+TeamSports,Handball,Men,FRA,REMILI Nedim,1995-07-18,26.1,76.8,nan,Gold
+TeamSports,Handball,Men,FRA,RICHARDSON Melvyn,1997-01-31,24.5,74.8,nan,Gold
+TeamSports,Handball,Men,FRA,TOURNAT Nicolas,1994-04-05,27.3,78.7,nan,Gold
+TeamSports,Handball,Men,ALL,Men-TeamHandball,NaT,30.7,75.3,nan,Gold
+TeamSports,Handball,Women,FRA,COATANEA Pauline,1993-07-06,28.1,68.9,nan,Gold
+TeamSports,Handball,Women,FRA,DANCETTE Blandine,1988-02-14,33.5,66.1,nan,Gold
+TeamSports,Handball,Women,FRA,DARLEUX Cleopatre,1989-07-01,32.0,69.3,nan,Gold
+TeamSports,Handball,Women,FRA,EDWIGE Beatrice,1988-10-03,32.9,71.7,nan,Gold
+TeamSports,Handball,Women,FRA,FLIPPES Laura,1994-12-13,26.7,67.3,nan,Gold
+TeamSports,Handball,Women,FRA,FOPPA Pauletta,2000-12-22,20.6,70.1,nan,Gold
+TeamSports,Handball,Women,FRA,LACRABERE Alexandra,1987-04-27,34.2,69.7,nan,Gold
+TeamSports,Handball,Women,FRA,LASSOURCE Coralie,1992-09-01,29.0,65.7,nan,Gold
+TeamSports,Handball,Women,FRA,LEYNAUD Amandine,1986-05-02,35.2,70.1,nan,Gold
+TeamSports,Handball,Women,FRA,NIAKATE Kalidiatou,1995-03-15,26.3,70.1,nan,Gold
+TeamSports,Handball,Women,FRA,NOCANDY Meline,1998-02-25,23.5,68.1,nan,Gold
+TeamSports,Handball,Women,FRA,NZE MINKO Estelle,1991-08-11,30.0,67.7,nan,Gold
+TeamSports,Handball,Women,FRA,PINEAU Allison,1989-05-02,32.2,70.9,nan,Gold
+TeamSports,Handball,Women,FRA,SERCIEN UGOLIN Oceane,1997-12-15,23.7,72.0,nan,Gold
+TeamSports,Handball,Women,FRA,VALENTINI Chloe,1995-04-19,26.2,65.4,nan,Gold
+TeamSports,Handball,Women,FRA,ZAADI DEUNA Grace,1993-07-07,28.1,67.7,nan,Gold
+TeamSports,Handball,Women,ALL,Women-TeamHandball FRA,NaT,28.8,68.8,nan,Gold
+RacquetSports,BadmintonDoubles,Men,TPE,Lee Yang,1995-08-12,26.0,70.1,nan,Gold
+RacquetSports,BadmintonDoubles,Men,TPE,Wang Chi-Lin,1995-01-18,26.6,74.0,nan,Gold
+RacquetSports,BadmintonDoubles,Men,AUT,WRABER Luka,1990-09-07,30.8,70.1,nan,nan
+RacquetSports,BadmintonDoubles,Men,AUT,LANE Ben,1997-07-13,24.1,70.9,nan,nan
+RacquetSports,BadmintonDoubles,Men,USA,CHEW Phillip,1994-05-16,27.2,67.7,nan,nan
+RacquetSports,BadmintonDoubles,Men,USA,CHEW Ryan,1996-08-12,25.0,nan,nan,nan
+RacquetSports,BadmintonDoubles,Men,MAS,CHIA Aaron,1997-02-24,24.5,66.1,nan,Bronze
+RacquetSports,BadmintonDoubles,Men,MAS,SOH Wool Yik,1998-02-17,23.5,72.8,nan,Bronze
+RacquetSports,BadmintonDoubles,Men,ALL,Men-Badminton,NaT,26.0,70.2,nan,nan
+Sailing,Two-man49er,Men,GBR,FLETCHER Dylan,1988-04-03,33.4,68.1,163.0,Gold
+Sailing,Two-man49er,Men,GBR,BITHELL Stuart,1986-08-28,35.0,73.2,176.0,Gold
+Sailing,Two-man49er,Men,GER,HEIL Erik,1989-08-10,32.0,72.0,168.0,Silver
+Sailing,Two-man49er,Men,GER,PLOESSEL Thomas,1988-04-29,33.2,71.3,176.0,Silver
+Sailing,Two-man49er,Men,POL,PRZYBYTEK Lukasz,1989-05-20,32.2,69.7,159.0,nan
+Sailing,Two-man49er,Men,POL,KOLODZINSKI Pawel,1988-01-07,33.5,74.8,181.0,nan
+Sailing,Two-man470,Men,AUS,BELCHER Mathew,1982-09-20,38.9,68.1,137.0,Gold
+Sailing,Two-man470,Men,AUS,RYAN Will,1988-12-23,32.5,76.4,165.0,Gold
+Sailing,Two-man470,Men,SWE,DAHLBERG Anton,1985-05-10,36.2,68.9,139.0,Silver
+Sailing,Two-man470,Men,SWE,BERGSTROM Fredrik,1990-07-09,31.1,71.7,141.0,Silver
+Sailing,Two-man470,Men,NZL,SNOW-HANSEN Paul,1990-09-03,31.0,68.9,141.0,Bronze
+Sailing,Two-man470,Men,NZL,WILLCOX Dan,1990-06-08,31.2,70.1,159.0,nan
+Sailing,Sailing-all,Men,ALL,Men-Sailing-Helm,NaT,34.0,69.3,151.2,nan
+Sailing,Sailing-all,Men,ALL,Men-Sailing-Crew,NaT,32.7,72.9,166.3,nan
+Cycling-MTB,MTB-racing,Women,SUI,NEFF Jolanda,1993-01-05,28.5,66,117,Gold
+Cycling-MTB,MTB-racing,Women,SUI,FREI Sina,1997-07-18,24,59,104,Silver
+Cycling-MTB,MTB-racing,Women,ALL,Women-MTB-Racers,,26.3,62.5,110.5,G-S
+Cycling-MTB,MTB-racing,Men,GBR,PIDCOCK Thomas,1999-07-30,22.0,66.9,110.0,Gold
+Cycling-MTB,MTB-racing,Men,SUI,FLUECKIGER Mathias,1988-09-27,32.9,67.3,143.0,Silver
+Cycling-MTB,MTB-racing,Men,ESP,VALERO SERRANO David,1988-12-27,32.5,73.6,168.0,Bronze
+Cycling-MTB,MTB-racing,Men,FRA,KORETZKY Victor,1994-08-26,27.0,70.1,nan,5
+Cycling-MTB,MTB-racing,Men,SUI,SCHURTER Nino,1986-05-13,35.2,68.1,nan,4
+Cycling-MTB,MTB-racing,Men,ALL,Men-MTB-Racers,NaT,30.0,69.2,140.3,G-S-B
+Skateboarding,Park_Skating,Men,AUS,KEEGAN Palmer,2003-03-13,18.3,66.1,125.4,Gold
+Skateboarding,Park_Skating,Men,BRA,BARROS Pedro,1995-03-16,26.3,67.7,133.0,Silver
+Skateboarding,Park_Skating,Men,USA,JUNEAU Corey,1999-06-20,22.2,nan,nan,Bronze
+Skateboarding,Park_Skating,Men,ALL,Men-Skateboarders,NaT,22.2,66.9,129.2,nan
+Athletics,highjump,Men,QAT,BARSHIM Mutaz Essa,1991-06-24,30.1,74.0,143.0,Gold
+Athletics,highjump,Men,ITA,TAMBERI Gianmarco,1992-06-01,29.2,75.2,168.0,Gold
+Athletics,highjump,Men,BLR,NEDASEKAU Maksim,1998-01-21,23.6,76.0,169.4,Bronze
+Athletics,highjump,Men,ALL,Men-High-Jumpers,NaT,27.6,75.1,160.1,nan
+Athletics,triplejump,Men,POR,PICHARDO Pedro,1993-06-30,28.1,72.0,150.0,Gold
+Athletics,triplejump,Men,CHN,ZHU Yaming,1994-05-04,27.2,76.0,172.0,Silver
+Athletics,triplejump,Men,BUR,ZANGO Hugues Fabrice,1993-06-25,28.1,71.0,172.0,Bronze
+Athletics,triplejump,Men,USA,CLAYE Will,1991-06-13,30.2,71.0,160.0,nan
+Athletics,triplejump,Men,ALL,Men-Triple-Jumpers,NaT,28.3,72.5,163.5,nan
+Athletics,Shotput,Men,USA,CROUSER Ryan,1992-12-18,28.7,79.0,320.0,Gold
+Athletics,Shotput,Men,USA,KOVACS Joe,1989-06-28,32.0,72.0,295.0,Silver
+Athletics,Shotput,Men,NZL,WALSH Tomas,1992-03-01,29.5,73.0,265.0,Bronze
+Athletics,Shotput,Men,ALL,Men-Shot-Putters,NaT,30.1,74.7,293.3,nan
+Athletics,Javelin,Men,IND,Neeraj Chopra,1997-12-24,23.6,70.1,189.2,Gold
+Athletics,Javelin,Men,CZE,Jakub Vadlejch,1990-10-10,30.7,75.0,205.0,Silver
+Athletics,Javelin,Men,CZE,Vítězslav Veselý,1983-02-27,38.5,73.0,207.0,Bronze
+Athletics,Javelin,Men,ALL,Men-Javelin-Throwers,NaT,31.0,72.7,200.4,nan
+Athletics,polevault,Men,SWE,Armand Duplantis,1999-11-10,21.7,71.0,174.0,nan
+Athletics,polevault,Men,USA,Chris Nilsen,1998-01-13,23.6,77.0,184.8,nan
+Athletics,polevault,Men,BRA,Thiago Braz,1993-12-16,27.7,72.0,165.0,nan
+Athletics,polevault,Men,ALL,Men-Pole-Vaulters,NaT,24.2,73.3,174.6,nan
+Athletics,110hurdles,Men,JAM,Hansle Parchment,1990-06-17,31.2,77.0,198.0,nan
+Athletics,110hurdles,Men,USA,Grant Holloway,1997-11-19,23.7,74.0,190.0,nan
+Athletics,110hurdles,Men,JAM,Ronald Levy,1992-10-20,28.7,66.5,183.0,nan
+Athletics,400hurdles,Men,NOR,Carston Warholm,1996-02-28,25.5,74.0,176.0,nan
+Athletics,400hurdles,Men,USA,Rai Benjamin,1996-07-27,25.0,75.0,180.0,nan
+Athletics,Hurdles-alldist,Men,ALL,Men Hurdlers,NaT,26.7,73.3,185.4,nan
+Fencing,Foil,Men,CHN,CHUNG Ka Long,1997-06-10,24.2,76.0,150.0,Gold
+Fencing,Foil,Men,ITA,GAROZZO Daniele,1992-08-04,29.0,70.0,143.0,Silver
+Fencing,Foil,Men,CZE,CHOUPENITCH Alexander,1994-05-02,27.2,77.0,198.0,Bronze
+Fencing,Foil,Men,ALL,Men-Fencing-Foil,1994-11-05,26.8,74.3,163.7,G-S-B
+Fencing,Sabre,Men,HUN,SZILAGYI Aron,1990-01-14,31.6,71.0,172.0,Gold
+Fencing,Sabre,Men,ITA,SAMELE Luigi,1987-07-25,34.0,75.0,161.0,Silver
+Fencing,Sabre,Men,KOR,KIM Junghwan,1983-09-02,38.0,70.0,141.0,Bronze
+Fencing,Fencing,Men,ALL,Men-Fencing-Sabre,1987-02-13,34.5,72,158,G-S-B
+Climbing,GymClimbing,Men,ESP,GINES LOPEZ Alberto,2002-10-23,18.7,66.0,128.0,Gold
+Climbing,GymClimbing,Men,USA,COLEMAN Nathaniel,1997-01-01,24.6,71.0,163.0,Silver
+Climbing,GymClimbing,Men,AUT,SCHUBERT Jakob,1990-12-31,30.6,69.0,139.0,Bronze
+Climbing,GymClimbing,Men,ALL,Men-Climbing,NaT,24.7,68.7,143.3,nan
+Climbing,GymClimbing,Women,SLO,GARNBRET Janja,1999-03-12,22.3,63.0,104.0,Gold
+Climbing,GymClimbing,Women,JPN,NONAKA Miho,1997-05-21,24.2,64.0,115.0,Silver
+Climbing,GymClimbing,Women,JPN,NOGUCHI Akiyo,1989-05-30,32.2,66.0,108.0,Bronze
+Climbing,GymClimbing,Women,ALL,Women-Climbing,NaT,26.2,64.3,109.0,nan
+US_Public,Adult_All,Men,ALL,adultM_avg,1984-07-24,37.2,69.1,192.6,nan
+US_Public,Adult_All,Men,ALL,adultM_75th_prctl,NaT,nan,71.0,224.6,nan
+US_Public,Adult_All,Men,ALL,adultM_90th_prctl,NaT,nan,72.0,263.2,nan
+US_Public,Adult_25,Men,ALL,adultM_20-29,,25,69.3,179.1,nan
+US_Public,Adult_25,Men,ALL,adultM_20-29_75th_prctl,,25,71.0,216.5,na
+US_Public,Adult_All,Women,ALL,adultF_avg,1981-12-18,39.7,63.5,161.2,nan
+US_Public,Adult_All,Women,ALL,adultF_75th_prctl,NaT,nan,65.3,195.3,nan
+US_Public,Adult_25,Women,ALL,adultF_20-29,,25,64.1,153.2,nan
+US_Public,Adult_25,Women,ALL,adultF_20-29_75th_prctl,NaT,25,65.8,190.5,nan

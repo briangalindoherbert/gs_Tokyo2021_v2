@@ -1,0 +1,340 @@
+Sport,Event,Gender,Medal_Date,disc_html,evt_html,Entries,NOCs,Gold,G_NOC,Silver,S_NOC,Bronze,B_NOC,Bronze2,B2_NOC,Gold2,G2_NOC
+3on3 Basketball,3on3 Hoops,Men,7/28/21,3x3-basketball,men,32,8,Latvia,LAT,ROC,ROC,Serbia,SRB,nan,nan,nan,nan
+3on3 Basketball,3on3 Hoops,Women,7/28/21,3x3-basketball,women,32,8,United States,USA,ROC,ROC,China,CHN,nan,nan,nan,nan
+Archery,Individual Archery,Men,7/31/21,archery,men-s-individual,64,40,GAZOZ Mete,TUR,NESPOLI Mauro,ITA,FURUKAWA Takaharu,JPN,nan,nan,nan,nan
+Archery,Team Archery,Men,7/26/21,archery,men-s-team,36,12,Republic of Korea,KOR,Chinese Taipei,TPE,Japan,JPN,nan,nan,nan,nan
+Archery,Team Archery,Mixed,7/24/21,archery,mixed-team,61,29,Republic of Korea,KOR,Netherlands,NED,Mexico,MEX,nan,nan,nan,nan
+Archery,Individual Archery,Women,7/30/21,archery,women-s-individual,64,40,AN San,KOR,OSIPOVA Elena,ROC,BOARI Lucilla,ITA,nan,nan,nan,nan
+Archery,Team Archery,Women,7/25/21,archery,women-s-team,36,12,Republic of Korea,KOR,ROC,ROC,Germany,GER,nan,nan,nan,nan
+Gymnastics,Individual All-Around,Men,7/28/21,artistic-gymnastics,men-s-all-around,66,30,HASHIMOTO Daiki,JPN,XIAO Ruoteng,CHN,NAGORNYY Nikita,ROC,nan,nan,nan,nan
+Gymnastics,Floor Exercise,Men,8/1/21,artistic-gymnastics,men-s-floor-exercise,68,32,DOLGOPYAT Artem,ISR,ZAPATA Rayderley,ESP,XIAO Ruoteng,CHN,nan,nan,nan,nan
+Gymnastics,Horizontal Bar,Men,8/3/21,artistic-gymnastics,men-s-horizontal-bar,71,35,HASHIMOTO Daiki,JPN,SRBIC Tin,CRO,NAGORNYY Nikita,ROC,nan,nan,nan,nan
+Gymnastics,Parallel Bars,Men,8/3/21,artistic-gymnastics,men-s-parallel-bars,70,33,ZOU Jingyuan,CHN,DAUSER Lukas,GER,ARICAN Ferhat,TUR,nan,nan,nan,nan
+Gymnastics,Pommel Horse,Men,8/1/21,artistic-gymnastics,men-s-pommel-horse,74,35,WHITLOCK Max,GBR,KLEE Chih Kai,TPE,KAYA Kazuma,JPN,nan,nan,nan,nan
+Gymnastics,Rings,Men,8/2/21,artistic-gymnastics,men-s-rings,72,32,LIU Yang,CHN,YOU Hao,CHN,PETROUNIAS Eleftherios,GRE,nan,nan,nan,nan
+Gymnastics,Team All-Around,Men,7/26/21,artistic-gymnastics,men-s-team,48,12,ROC,ROC,Japan,JPN,China,CHN,nan,nan,nan,nan
+Gymnastics,Horse Vault,Men,8/2/21,artistic-gymnastics,men-s-vault,24,18,SHIN Jeahwan,KOR,ABLIAZIN Denis,ROC,DAVTYAN Artur,ARM,nan,nan,nan,nan
+Gymnastics,Individual All-Around,Women,7/28/21,artistic-gymnastics,women-s-all-around,85,40,LEE Sunisa,USA,ANDRADE Rebeca,BRA,MELNIKOVA Angelina,ROC,nan,nan,nan,nan
+Gymnastics,Balance Beam,Women,8/3/21,artistic-gymnastics,women-s-balance-beam,91,43,GUAN Chenchen,CHN,TANG Xijing,CHN,BILES Simone,USA,nan,nan,nan,nan
+Gymnastics,Floor Exercise,Women,8/2/21,artistic-gymnastics,women-s-floor-exercise,85,42,CAREY Jade,USA,FERRARI Vanessa,ITA,MURAKAMI Mai,JPN,MELNIKOVA Angelina,ROC,nan,nan
+Gymnastics,Team All-Around,Women,7/27/21,artistic-gymnastics,women-s-team,48,12,ROC,ROC,United States,USA,Great Britain,GBR,nan,nan,nan,nan
+Gymnastics,Uneven Bars,Women,8/1/21,artistic-gymnastics,women-s-uneven-bars,88,44,DERWAEL Nina,BEL,ILIANKOVA Anastasiia,ROC,LEE Sunisa,USA,nan,nan,nan,nan
+Gymnastics,Horse Vault,Women,8/1/21,artistic-gymnastics,women-s-vault,19,15,ANDRADE Rebeca,BRA,SKINNER Mykayla,USA,YEO Seojeong,KOR,nan,nan,nan,nan
+Synchronized Swimming,Artistic Swimming Duet,Women,8/4/21,artistic-swimming,duet,42,21,ROC,ROC,China,CHN,Ukraine,UKR,nan,nan,nan,nan
+Synchronized Swimming,Artistic Swimming Team,Women,8/7/21,artistic-swimming,team,72,9,ROC,ROC,China,CHN,Ukraine,UKR,nan,nan,nan,nan
+Athletics,10KM Run,Men,7/30/21,athletics,men-s-10000m,25,15,BAREGA Selemon,ETH,CHEPTEGEI Joshua,UGA,KIPLIMO Jacob,UGA,nan,nan,nan,nan
+Athletics,100M Sprint,Men,8/1/21,athletics,men-s-100m,78,59,MJACOBS Lamont Marcell,ITA,KERLEY Fred,USA,RASSE Ade GRASSE Andre,CAN,nan,nan,nan,nan
+Athletics,110M Hurdles,Men,8/5/21,athletics,men-s-110m-hurdles,40,28,PARCHMENT Hansle,JAM,HOLLOWAY Grant,USA,LEVY Ronald,JAM,nan,nan,nan,nan
+Athletics,1500M Run,Men,8/7/21,athletics,men-s-1500m,47,27,INGEBRIGTSEN Jakob,NOR,CHERUIYOT Timothy,KEN,KERR Josh,GBR,nan,nan,nan,nan
+Athletics,200M Sprint,Men,8/4/21,athletics,men-s-200m,48,33,RASSE Ade GRASSE Andre,CAN,BEDNAREK Kenneth,USA,LYLES Noah,USA,nan,nan,nan,nan
+Athletics,20 KM Walk,Men,8/6/21,athletics,men-s-20km-race-walk,57,28,STANO Massimo,ITA,IKEDA Koki,JPN,YAMANISHI Toshikazu,JPN,nan,nan,nan,nan
+Athletics,3KM Steeplechase,Men,8/2/21,athletics,men-s-3000m-steeplechase,44,22,AKKALI SEL BAKKALI Soufiane,MAR,GIRMA Lamecha,ETH,KIGEN Benjamin,KEN,nan,nan,nan,nan
+Athletics,4x100M Relay,Men,8/6/21,athletics,men-s-4-x-100m-relay,64,16,Italy,ITA,Great Britain,GBR,Canada,CAN,nan,nan,nan,nan
+Athletics,4x400M Relay,Men,8/7/21,athletics,men-s-4-x-400m-relay,71,16,United States of America,USA,Netherlands,NED,Botswana,BOT,nan,nan,nan,nan
+Athletics,400M Run,Men,8/5/21,athletics,men-s-400m,48,33,GARDINER Steven,BAH,JZAMBRANO Anthony Jose,COL,JAMES Kirani,GRN,nan,nan,nan,nan
+Athletics,400M Hurdles,Men,8/3/21,athletics,men-s-400m-hurdles,36,26,WARHOLM Karsten,NOR,BENJAMIN Rai,USA,ANTOS Ados SANTOS Alison,BRA,nan,nan,nan,nan
+Athletics,5KM Run,Men,8/6/21,athletics,men-s-5000m,38,23,CHEPTEGEI Joshua,UGA,AHMED Mohammed,CAN,CHELIMO Paul,USA,nan,nan,nan,nan
+Athletics,50 KM Walk,Men,8/6/21,athletics,men-s-50km-race-walk,59,29,TOMALA Dawid,POL,HILBERT Jonathan,GER,DUNFEE Evan,CAN,nan,nan,nan,nan
+Athletics,800M Run,Men,8/4/21,athletics,men-s-800m,47,29,KKORIR Emmanuel Kipkurui,KEN,CROTICH Ferguson Cheruiyot,KEN,DOBEK Patryk,POL,nan,nan,nan,nan
+Athletics,Decathlon,Men,8/5/21,athletics,men-s-decathlon,23,15,WARNER Damian,CAN,MAYER Kevin,FRA,MOLONEY Ashley,AUS,nan,nan,nan,nan
+Athletics,Discus Throw,Men,7/31/21,athletics,men-s-discus-throw,32,24,STAHL Daniel,SWE,PETTERSSON Simon,SWE,WEISSHAIDINGER Lukas,AUT,nan,nan,nan,nan
+Athletics,Hammer Throw,Men,8/4/21,athletics,men-s-hammer-throw,31,21,NOWICKI Wojciech,POL,HENRIKSEN Eivind,NOR,FAJDEK Pawel,POL,nan,nan,nan,nan
+Athletics,High Jump,Men,8/1/21,athletics,men-s-high-jump,33,24,EBARSHIM Mutaz Essa,QAT,nan,nan,NEDASEKAU Maksim,BLR,nan,nan,TAMBERI Gianmarco,ITA
+Athletics,Javelin Throw,Men,8/7/21,athletics,men-s-javelin-throw,32,22,CHOPRA Neeraj,IND,VADLEJCH Jakub,CZE,VESELY Vitezslav,CZE,nan,nan,nan,nan
+Athletics,Long Jump,Men,8/2/21,athletics,men-s-long-jump,31,20,TENTOGLOU Miltiadis,GRE,MECHEVARRIA Juan Miguel,CUB,MASSO Maykel,CUB,nan,nan,nan,nan
+Athletics,Marathon Run,Men,8/8/21,athletics,men-s-marathon,106,46,KIPCHOGE Eliud,KEN,NAGEEYE Abdi,NED,ABDI Bashir,BEL,nan,nan,nan,nan
+Athletics,Pole Vault,Men,8/3/21,athletics,men-s-pole-vault,29,18,DUPLANTIS Armand,SWE,NILSEN Christopher,USA,BRAZ Thiago,BRA,nan,nan,nan,nan
+Athletics,Shot Put,Men,8/5/21,athletics,men-s-shot-put,31,22,CROUSER Ryan,USA,KOVACS Joe,USA,WALSH Tomas,NZL,nan,nan,nan,nan
+Athletics,Triple Jump,Men,8/5/21,athletics,men-s-triple-jump,31,19,PICHARDO Pedro,POR,ZHU Yaming,CHN,FZANGO Hugues Fabrice,BUR,nan,nan,nan,nan
+Athletics,4x400M Relay,Mixed,7/31/21,athletics,4-x-400m-relay-mixed,76,15,Poland,POL,Dominican Republic,DOM,United States of America,USA,nan,nan,nan,nan
+Athletics,10 KM Run,Women,8/7/21,athletics,women-s-10000m,29,18,HASSAN Sifan,NED,GEZAHEGNE Kalkidan,BRN,GIDEY Letesenbet,ETH,nan,nan,nan,nan
+Athletics,100M Run,Women,7/31/21,athletics,women-s-100m,71,55,THOMPSON-HERAH Elaine,JAM,AFRASER-PRYCE Shelly-Ann,JAM,JACKSON Shericka,JAM,nan,nan,nan,nan
+Athletics,100M Hurdles,Women,8/2/21,athletics,women-s-100m-hurdles,40,28,CAMACHO-QUINN Jasmine,PUR,HARRISON Kendra,USA,TAPPER Megan,JAM,nan,nan,nan,nan
+Athletics,1500M Run,Women,8/6/21,athletics,women-s-1500m,45,25,KIPYEGON Faith,KEN,MUIR Laura,GBR,HASSAN Sifan,NED,nan,nan,nan,nan
+Athletics,200M Sprint,Women,8/3/21,athletics,women-s-200m,41,31,THOMPSON-HERAH Elaine,JAM,MBOMA Christine,NAM,THOMAS Gabrielle,USA,nan,nan,nan,nan
+Athletics,20 kilometer Walk,Women,8/6/21,athletics,women-s-20km-race-walk,58,30,PALMISANO Antonella,ITA,LARENAS Sandra Lorena,COL,LIU Hong,CHN,nan,nan,nan,nan
+Athletics,3 KM Steeplechase,Women,8/4/21,athletics,women-s-3000m-steeplechase,41,24,CHEMUTAI Peruth,UGA,FRERICHS Courtney,USA,KIYENG Hyvin,KEN,nan,nan,nan,nan
+Athletics,4x100M Relay,Women,8/6/21,athletics,women-s-4-x-100m-relay,68,16,Jamaica,JAM,United States of America,USA,Great Britain,GBR,nan,nan,nan,nan
+Athletics,4x400M Relay,Women,8/7/21,athletics,women-s-4-x-400m-relay,73,16,United States of America,USA,Poland,POL,Jamaica,JAM,nan,nan,nan,nan
+Athletics,400M Run,Women,8/6/21,athletics,women-s-400m,45,34,MILLER-UIBO Shaunae,BAH,PAULINO Marileidy,DOM,FELIX Allyson,USA,nan,nan,nan,nan
+Athletics,400M Hurdles,Women,8/4/21,athletics,women-s-400m-hurdles,39,25,McLAUGHLIN Sydney,USA,MUHAMMAD Dalilah,USA,BOL Femke,NED,nan,nan,nan,nan
+Athletics,5KM Run,Women,8/2/21,athletics,women-s-5000m,38,21,HASSAN Sifan,NED,OBIRI Hellen,KEN,TSEGAY Gudaf,ETH,nan,nan,nan,nan
+Athletics,800M Run,Women,8/3/21,athletics,women-s-800m,46,29,MU Athing,USA,HODGKINSON Keely,GBR,ROGERS Raevyn,USA,nan,nan,nan,nan
+Athletics,Discus Throw,Women,8/2/21,athletics,women-s-discus-throw,31,19,ALLMAN Valarie,USA,PUDENZ Kristin,GER,PEREZ Yaime,CUB,nan,nan,nan,nan
+Athletics,Hammer Throw,Women,8/3/21,athletics,women-s-hammer-throw,31,21,WLODARCZYK Anita,POL,WANG Zheng,CHN,KOPRON Malwina,POL,nan,nan,nan,nan
+Athletics,Heptathlon,Women,8/5/21,athletics,women-s-heptathlon,24,17,THIAM Nafissatou,BEL,VETTER Anouk,NED,OOSTERWEGEL Emma,NED,nan,nan,nan,nan
+Athletics,High Jump,Women,8/7/21,athletics,women-s-high-jump,31,20,LASITSKENE Mariya,ROC,McDERMOTT Nicola,AUS,MAHUCHIKH Yaroslava,UKR,nan,nan,nan,nan
+Athletics,Javelin Throw,Women,8/6/21,athletics,women-s-javelin-throw,30,20,LIU Shiying,CHN,ANDREJCZYK Maria,POL,LBARBER Kelsey-Lee,AUS,nan,nan,nan,nan
+Athletics,Long Jump,Women,8/3/21,athletics,women-s-long-jump,30,23,MIHAMBO Malaika,GER,REESE Brittney,USA,BRUME Ese,NGR,nan,nan,nan,nan
+Athletics,Marathon Run,Women,8/7/21,athletics,women-s-marathon,88,44,JEPCHIRCHIR Peres,KEN,KOSGEI Brigid,KEN,SEIDEL Molly,USA,nan,nan,nan,nan
+Athletics,Pole Vault,Women,8/5/21,athletics,women-s-pole-vault,31,19,NAGEOTTE Katie,USA,SIDOROVA Anzhelika,ROC,BRADSHAW Holly,GBR,nan,nan,nan,nan
+Athletics,Shot Put,Women,8/1/21,athletics,women-s-shot-put,32,22,GONG Lijiao,CHN,SAUNDERS Raven,USA,ADAMS Valerie,NZL,nan,nan,nan,nan
+Athletics,Triple Jump,Women,8/1/21,athletics,women-s-triple-jump,33,23,ROJAS Yulimar,VEN,MAMONA Patricia,POR,PELETEIRO Ana,ESP,nan,nan,nan,nan
+Badminton,Doubles Badminton,Men,7/31/21,badminton,men-s-doubles,32,14,LEE Yang/WANG Chi-Lin,TPE,LI Jun Hui/LIU Yu Chen,CHN,CHIA Aaron/SOH Wooi Yik,MAS,nan,nan,nan,nan
+Badminton,Singles Badminton,Men,8/2/21,badminton,men-s-singles,41,36,AXELSEN Viktor,DEN,CHEN Long,CHN,INTINGGINTING Anthony Sinisuka,INA,nan,nan,nan,nan
+Badminton,Doubles Badminton,Mixed,7/30/21,badminton,mixed-doubles,32,15,WANG Yi Lyu/HUANG Dong Ping,CHN,ZHENG Si Wei/HUANG Ya Qiong,CHN,WATANABE Yuta/HIGASHINO Arisa,JPN,nan,nan,nan,nan
+Badminton,Doubles Badminton,Women,8/2/21,badminton,women-s-doubles,32,13,POLII Greysia/RAHAYU Apriyani,INA,CHEN Qing Chen/JIA Yi Fan,CHN,KIM Soyeong/KONG Heeyong,KOR,nan,nan,nan,nan
+Badminton,Singles Badminton,Women,8/1/21,badminton,women-s-singles,43,39,u FeiCHEN Yu Fei,CHN,YTAI Tzu-Ying,TPE,SPUSARLA V. Sindhu,IND,nan,nan,nan,nan
+Baseball,Baseball,Men,8/7/21,baseball-softball,baseball,144,6,Japan,JPN,United States,USA,Dominican Rep.,DOM,nan,nan,nan,nan
+Baseball,Softball,Women,7/27/21,baseball-softball,softball,89,6,Japan,JPN,United States,USA,Canada,CAN,nan,nan,nan,nan
+Basketball,5on5 Hoops,Men,8/7/21,basketball,men,143,12,United States,USA,France,FRA,Australia,AUS,nan,nan,nan,nan
+Basketball,5on5 Hoops,Women,8/8/21,basketball,women,142,12,United States,USA,Japan,JPN,France,FRA,nan,nan,nan,nan
+Beach Volleyball,Beach Volleyball,Men,7/24/21,beach-volleyball,men,48,19,Mol A./Sorum C.,NOR,Krasilnikov/Stoyanovskiy,ROC,Cherif/Ahmed,QAT,nan,nan,nan,nan
+Beach Volleyball,Beach Volleyball,Women,8/6/21,beach-volleyball,women,46,16,April/Alix,USA,Artacho Del Solar/Clancy,AUS,"Verge-Depre, A./Heidrich",SUI,nan,nan,nan,nan
+Boxing,Featherweight Boxing,Men,8/5/21,boxing,men-s-feather-52-57kg,27,27,BATYRGAZIEV Albert,ROC,RAGAN Duke,USA,ALVAREZ Lazaro,CUB,TAKYI Samuel,GHA,nan,nan
+Boxing,Flyweight Boxing,Men,8/7/21,boxing,men-s-fly-48-52kg,27,27,YAFAI Galal,GBR,PAALAM Carlo,PHI,BIBOSSINOV Saken,KAZ,TANAKA Ryomei,JPN,nan,nan
+Boxing,Heavyweight Boxing,Men,8/6/21,boxing,men-s-heavy-81-91kg,17,17,RUZ Jla CRUZ Julio,CUB,GADZHIMAGOMEDOV Muslim,ROC,TEIXEIRA Abner,BRA,NYIKA David,NZL,nan,nan
+Boxing,Lightweight Boxing,Men,8/8/21,boxing,men-s-light-57-63kg,29,29,CRUZ Andy,CUB,DAVIS Keyshawn,USA,GARSIDE Harry,AUS,BACHKOV Hovhannes,ARM,nan,nan
+Boxing,Light-Heavyweight Boxing,Men,8/4/21,boxing,men-s-light-heavy-75-81kg,22,22,LOPEZ Arlen,CUB,WHITTAKER Benjamin,GBR,OMINGUEZALFONSO DOMINGUEZ Loren Berto,AZE,KHATAEV Imam,ROC,nan,nan
+Boxing,Middleweight Boxing,Men,8/7/21,boxing,men-s-middle-69-75kg,25,25,SOUSA Hebert,BRA,KHYZHNIAK Oleksandr,UKR,BAKSHI Gleb,ROC,MARCIAL Eumir,PHI,nan,nan
+Boxing,Super-Heavyweight Boxing,Men,8/8/21,boxing,men-s-super-heavy--plus-91kg,17,17,JALOLOV Bakhodir,UZB,R RTORREZ JR Richard,USA,CLARKE Frazer,GBR,KUNKABAYEV Kamshybek,KAZ,nan,nan
+Boxing,Welterweight Boxing,Men,8/3/21,boxing,men-s-welter-63-69kg,23,23,IGLESIAS Roniel,CUB,McCORMACK Pat,GBR,ZAMKOVOI Andrei,ROC,WALSH Aidan,IRL,nan,nan
+Boxing,Featherweight Boxing,Women,8/3/21,boxing,women-s-feather-54-57kg,21,21,IRIE Sena,JPN,PETECIO Nesthy,PHI,ARTINGSTALL Karriss,GBR,TESTA Irma,ITA,nan,nan
+Boxing,Flyweight Boxing,Women,8/7/21,boxing,women-s-fly-48-51kg,26,26,ZKRASTEVA Stoyka Zhelyazkova,BUL,NCAKIROGLU Buse Naz,TUR,NAMIKI Tsukimi,JPN,WHUANG Hsiao-Wen,TPE,nan,nan
+Boxing,Lightweight Boxing,Women,8/8/21,boxing,women-s-light-57-60kg,21,21,AHARRINGTON Kellie Anne,IRL,FERREIRA Beatriz,BRA,SEESONDEE Sudaporn,THA,MJPOTKONEN Mira Marjut Johanna,FIN,nan,nan
+Boxing,Middleweight Boxing,Women,8/8/21,boxing,women-s-middle-69-75kg,16,16,PRICE Lauren,GBR,LI Qian,CHN,FONTIJN Nouchka,NED,MAGOMEDALIEVA Zenfira,ROC,nan,nan
+Boxing,Welterweight Boxing,Women,8/7/21,boxing,women-s-welter-64-69kg,18,18,SURMENELI Busenaz,TUR,GU Hong,CHN,BORGOHAIN Lovlina,IND,JONES Oshae,USA,nan,nan
+Canoe-Kayak Slalom,Canoe Slalom,Men,7/26/21,canoe-slalom,men-s-canoe,18,18,SAVSEK Benjamin,SLO,ROHAN Lukas,CZE,TASIADIS Sideris,GER,nan,nan,nan,nan
+Canoe-Kayak Slalom,Kayak Slalom,Men,7/30/21,canoe-slalom,men-s-kayak,24,24,PRSKAVEC Jiri,CZE,GRIGAR Jakub,SVK,AIGNER Hannes,GER,nan,nan,nan,nan
+Canoe-Kayak Slalom,Canoe Slalom,Women,7/29/21,canoe-slalom,women-s-canoe,22,22,FOX Jessica,AUS,FRANKLIN Mallory,GBR,HERZOG Andrea,GER,nan,nan,nan,nan
+Canoe-Kayak Slalom,Kayak Slalom,Women,7/27/21,canoe-slalom,women-s-kayak,27,27,FUNK Ricarda,GER,CHOURRAUT Maialen,ESP,FOX Jessica,AUS,nan,nan,nan,nan
+Canoe-Kayak Sprint,Canoe Doubles 1KM,Men,8/3/21,canoe-sprint,men-s-canoe-double-1000m,28,14,Cuba,CUB,China,CHN,Germany,GER,nan,nan,nan,nan
+Canoe-Kayak Sprint,Canoe 1KM,Men,8/7/21,canoe-sprint,men-s-canoe-single-1000m,32,19,os SANTOSQUEIROZ dos SANTOS Isaquias,BRA,LIU Hao,CHN,TARNOVSCHI Serghei,MDA,nan,nan,nan,nan
+Canoe-Kayak Sprint,Kayak Double 1KM,Men,8/5/21,canoe-sprint,men-s-kayak-double-1000m,32,14,Australia,AUS,Germany,GER,Czech Republic,CZE,nan,nan,nan,nan
+Canoe-Kayak Sprint,Kayak Four 500M,Men,8/7/21,canoe-sprint,men-s-kayak-four-500m,44,11,Germany,GER,Spain,ESP,Slovakia,SVK,nan,nan,nan,nan
+Canoe-Kayak Sprint,Kayak 1KM,Men,8/3/21,canoe-sprint,men-s-kayak-single-1000m,27,23,KOPASZ Balint,HUN,VARGA Adam,HUN,PIMENTA Fernando,POR,nan,nan,nan,nan
+Canoe-Kayak Sprint,Kayak 200M,Men,8/5/21,canoe-sprint,men-s-kayak-single-200m,25,19,TOTKA Sandor,HUN,RIZZA Manfredi,ITA,HEATH Liam,GBR,nan,nan,nan,nan
+Canoe-Kayak Sprint,Canoe Double 500M,Women,8/7/21,canoe-sprint,women-s-canoe-double-500m,28,14,China,CHN,Ukraine,UKR,Canada,CAN,nan,nan,nan,nan
+Canoe-Kayak Sprint,Canoe 200M,Women,8/5/21,canoe-sprint,women-s-canoe-single-200m,32,22,HARRISON Nevin,USA,VINCENT-LAPOINTE Laurence,CAN,LUZAN Liudmyla,UKR,nan,nan,nan,nan
+Canoe-Kayak Sprint,Kayak Doubles 500M,Women,8/3/21,canoe-sprint,women-s-kayak-double-500m,40,16,New Zealand,NZL,Poland,POL,Hungary,HUN,nan,nan,nan,nan
+Canoe-Kayak Sprint,Kayak Four 500M,Women,8/7/21,canoe-sprint,women-s-kayak-four-500m,48,12,Hungary,HUN,Belarus,BLR,Poland,POL,nan,nan,nan,nan
+Canoe-Kayak Sprint,Kayak 200M,Women,8/3/21,canoe-sprint,women-s-kayak-single-200m,34,24,CARRINGTON Lisa,NZL,PORTELA Teresa,ESP,AJORGENSEN Emma Aastrand,DEN,nan,nan,nan,nan
+Canoe-Kayak Sprint,Kayak 500M,Women,8/5/21,canoe-sprint,women-s-kayak-single-500m,41,27,CARRINGTON Lisa,NZL,CSIPES Tamara,HUN,AJORGENSEN Emma Aastrand,DEN,nan,nan,nan,nan
+BMX Freestyle,Park BMX,Men,8/1/21,cycling-bmx-freestyle,men-s-park,9,8,MARTIN Logan,AUS,DHERS Daniel,VEN,BROOKS Declan,GBR,nan,nan,nan,nan
+BMX Freestyle,Park BMX,Women,8/1/21,cycling-bmx-freestyle,women-s-park,9,8,WORTHINGTON Charlotte,GBR,ROBERTS Hannah,USA,DUCARROZ Nikita,SUI,nan,nan,nan,nan
+BMX Racing,BMX Race,Men,7/30/21,cycling-bmx-racing,men,24,17,KIMMANN Niek,NED,WHYTE Kye,GBR,EPES CARAMIREZ YEPES Carlos Alberto,COL,nan,nan,nan,nan
+BMX Racing,BMX Race,Women,7/30/21,cycling-bmx-racing,women,24,17,SHRIEVER Bethany,GBR,PAJON Mariana,COL,SMULDERS Merel,NED,nan,nan,nan,nan
+Cycling-MTB,Cross-Country MTB,Men,7/26/21,cycling-mountain-bike,men-s-cross-country,38,29,PIDCOCK Thomas,GBR,FLUECKIGER Mathias,SUI,ERRANO DVALERO SERRANO David,ESP,nan,nan,nan,nan
+Cycling-MTB,Cross-Country MTB,Women,7/27/21,cycling-mountain-bike,women-s-cross-country,38,29,NEFF Jolanda,SUI,FREI Sina,SUI,INDERGAND Linda,SUI,nan,nan,nan,nan
+Cycling-Road,Cycling Time Trial,Men,7/28/21,cycling-road,men-s-individual-time-trial,39,31,ROGLIC Primoz,SLO,DUMOULIN Tom,NED,DENNIS Rohan,AUS,nan,nan,nan,nan
+Cycling-Road,Road Cycling Race,Men,7/24/21,cycling-road,men-s-road-race,126,57,CARAPAZ Richard,ECU,ERT Wvan AERT Wout,BEL,POGACAR Tadej,SLO,nan,nan,nan,nan
+Cycling-Road,Cycling Time Trial,Women,7/28/21,cycling-road,women-s-individual-time-trial,25,20,LEUTEN Avan VLEUTEN Annemiek,NED,REUSSER Marlen,SUI,er BREGGEN Avan der BREGGEN Anna,NED,nan,nan,nan,nan
+Cycling-Road,Road Cycling Race,Women,7/25/21,cycling-road,women-s-road-race,67,40,KIESENHOFER Anna,AUT,LEUTEN Avan VLEUTEN Annemiek,NED,ORGHINI ELONGO BORGHINI Elisa,ITA,nan,nan,nan,nan
+Cycling-Track,Keirin Race,Men,8/8/21,cycling-track,men-s-keirin,30,18,KENNY Jason,GBR,AAWANG Mohd Azizulhasni,MAS,LAVREYSEN Harrie,NED,nan,nan,nan,nan
+Cycling-Track,Madison Race,Men,8/7/21,cycling-track,men-s-madison,32,16,Denmark,DEN,Great Britain,GBR,France,FRA,nan,nan,nan,nan
+Cycling-Track,Omnium Race,Men,8/5/21,cycling-track,men-s-omnium,20,20,WALLS Matthew,GBR,STEWART Campbell,NZL,VIVIANI Elia,ITA,nan,nan,nan,nan
+Cycling-Track,Track Sprint,Men,8/6/21,cycling-track,men-s-sprint,30,18,LAVREYSEN Harrie,NED,HOOGLAND Jeffrey,NED,CARLIN Jack,GBR,nan,nan,nan,nan
+Cycling-Track,Team 4KM Pursuit,Men,8/4/21,cycling-track,men-s-team-pursuit,37,8,Italy,ITA,Denmark,DEN,Australia,AUS,nan,nan,nan,nan
+Cycling-Track,Team Sprint,Men,8/3/21,cycling-track,men-s-team-sprint,26,8,Netherlands,NED,Great Britain,GBR,France,FRA,nan,nan,nan,nan
+Cycling-Track,Keirin Race,Women,8/5/21,cycling-track,women-s-keirin,29,18,BRASPENNINCX Shanne,NED,ANDREWS Ellesse,NZL,GENEST Lauriane,CAN,nan,nan,nan,nan
+Cycling-Track,Madison Race,Women,8/6/21,cycling-track,women-s-madison,30,15,Great Britain,GBR,Denmark,DEN,ROC,ROC,nan,nan,nan,nan
+Cycling-Track,Omnium Race,Women,8/8/21,cycling-track,women-s-omnium,21,21,VALENTE Jennifer,USA,KAJIHARA Yumi,JPN,WILD Kirsten,NED,nan,nan,nan,nan
+Cycling-Track,Track Sprint,Women,8/8/21,cycling-track,women-s-sprint,28,18,MITCHELL Kelsey,CAN,STARIKOVA Olena,UKR,SLEE Wai Sze,HKG,nan,nan,nan,nan
+Cycling-Track,Team 4KM Pursuit,Women,8/3/21,cycling-track,women-s-team-pursuit,38,8,Germany,GER,Great Britain,GBR,United States,USA,nan,nan,nan,nan
+Cycling-Track,Team Sprint,Women,8/2/21,cycling-track,women-s-team-sprint,16,8,China,CHN,Germany,GER,ROC,ROC,nan,nan,nan,nan
+Diving,Platform Dive,Men,8/7/21,diving,men-s-10m-platform,29,18,CAO Yuan,CHN,YANG Jian,CHN,DALEY Thomas,GBR,nan,nan,nan,nan
+Diving,Springboard Dive,Men,8/3/21,diving,men-s-3m-springboard,29,20,XIE Siyi,CHN,WANG Zongyuan,CHN,LAUGHER Jack,GBR,nan,nan,nan,nan
+Diving,Synchronized Platform Dive,Men,7/26/21,diving,men-s-synchronised-10m-platform,16,8,Great Britain,GBR,China,CHN,ROC,ROC,nan,nan,nan,nan
+Diving,Synchronized Springboard Dive,Men,7/28/21,diving,men-s-synchronised-3m-springboard,16,8,China,CHN,United States,USA,Germany,GER,nan,nan,nan,nan
+Diving,Platform Dive,Women,8/5/21,diving,women-s-10m-platform,30,20,QUAN Hongchan,CHN,CHEN Yuxi,CHN,WU Melissa,AUS,nan,nan,nan,nan
+Diving,Springboard Dive,Women,8/1/21,diving,women-s-3m-springboard,27,17,SHI Tingmao,CHN,WANG Han,CHN,PALMER Krysta,USA,nan,nan,nan,nan
+Diving,Synchronized Platform Dive,Women,7/27/21,diving,women-s-synchronised-10m-platform,16,8,China,CHN,United States,USA,Mexico,MEX,nan,nan,nan,nan
+Diving,Synchronized Springboard Dive,Women,7/25/21,diving,women-s-synchronised-3m-springboard,16,8,China,CHN,Canada,CAN,Germany,GER,nan,nan,nan,nan
+Equestrian Dressage,Individual Dressage,Open,7/28/21,equestrian,dressage-individual,58,29,REDOW-WERNDL Jessicavon BREDOW-WERNDL Jessica,GER,WERTH Isabell,GER,DUJARDIN Charlotte,GBR,nan,nan,nan,nan
+Equestrian Dressage,Team Dressage,Open,7/27/21,equestrian,dressage-team,44,15,Germany,GER,United States,USA,Great Britain,GBR,nan,nan,nan,nan
+Equestrian Eventing,Individual Eventing,Open,8/2/21,equestrian,eventing-individual,62,29,KRAJEWSKI Julia,GER,McEWEN Tom,GBR,HOY Andrew,AUS,nan,nan,nan,nan
+Equestrian Eventing,Team Eventing,Open,8/2/21,equestrian,eventing-team,49,15,Great Britain,GBR,Australia,AUS,France,FRA,nan,nan,nan,nan
+Equestrian Jumping,Individual Jumping,Open,8/4/21,equestrian,jumping-individual,73,35,MAHER Ben,GBR,FREDRICSON Peder,SWE,er VLEUTEN Mvan der VLEUTEN Maikel,NED,nan,nan,nan,nan
+Equestrian Jumping,Team Jumping,Open,8/7/21,equestrian,jumping-team,54,19,Sweden,SWE,United States,USA,Belgium,BEL,nan,nan,nan,nan
+Fencing,Individiual Epee,Men,7/25/21,fencing,men-s-epee-individual,36,18,CANNONE Romain,FRA,SIKLOSI Gergely,HUN,REIZLIN Igor,UKR,nan,nan,nan,nan
+Fencing,Team Epee,Men,7/30/21,fencing,men-s-epee-team,34,9,Japan,JPN,ROC,ROC,Republic of Korea,KOR,nan,nan,nan,nan
+Fencing,Individual Foil,Men,7/26/21,fencing,men-s-foil-individual,36,18,LCHEUNG Ka Long,HKG,GAROZZO Daniele,ITA,CHOUPENITCH Alexander,CZE,nan,nan,nan,nan
+Fencing,Team Foil,Men,8/1/21,fencing,men-s-foil-team,34,9,France,FRA,ROC,ROC,United States,USA,nan,nan,nan,nan
+Fencing,Individual Sabre,Men,7/24/21,fencing,men-s-sabre-individual,36,18,SZILAGYI Aron,HUN,SAMELE Luigi,ITA,KIM Junghwan,KOR,nan,nan,nan,nan
+Fencing,Team Sabre,Men,7/28/21,fencing,men-s-sabre-team,36,9,Republic of Korea,KOR,Italy,ITA,Hungary,HUN,nan,nan,nan,nan
+Fencing,Individual Epee,Women,7/24/21,fencing,women-s-epee-individual,34,18,SUN Yiwen,CHN,MPOPESCU Ana Maria,ROU,LEHIS Katrina,EST,nan,nan,nan,nan
+Fencing,Team Epee,Women,7/27/21,fencing,women-s-epee-team,32,8,Estonia,EST,Republic of Korea,KOR,Italy,ITA,nan,nan,nan,nan
+Fencing,Individual Foil,Women,7/25/21,fencing,women-s-foil-individual,34,18,KIEFER Lee,USA,DERIGLAZOVA Inna,ROC,KOROBEYNIKOVA Larisa,ROC,nan,nan,nan,nan
+Fencing,Team Foil,Women,7/29/21,fencing,women-s-foil-team,32,8,ROC,ROC,France,FRA,Italy,ITA,nan,nan,nan,nan
+Fencing,Individual Sabre,Women,7/26/21,fencing,women-s-sabre-individual,36,18,POZDNIAKOVA Sofia,ROC,VELIKAYA Sofya,ROC,BRUNET Manon,FRA,nan,nan,nan,nan
+Fencing,Team Sabre,Women,7/31/21,fencing,women-s-sabre-team,35,9,ROC,ROC,France,FRA,Republic of Korea,KOR,nan,nan,nan,nan
+Soccer,Football,Men,8/7/21,football,men,296,16,Brazil,BRA,Spain,ESP,Mexico,MEX,nan,nan,nan,nan
+Soccer,Football,Women,8/6/21,football,women,228,12,Canada,CAN,Sweden,SWE,United States,USA,nan,nan,nan,nan
+Golf,Stroke-play Golf,Men,8/1/21,golf,men-s-individual-stroke-play,60,35,SCHAUFFELE Xander,USA,SABBATINI Rory,SVK, TPAN C T,TPE,nan,nan,nan,nan
+Golf,Stroke-play Golf,Women,8/7/21,golf,women-s-individual-stroke-play,60,35,KORDA Nelly,USA,INAMI Mone,JPN,KO Lydia,NZL,nan,nan,nan,nan
+Team Handball,Handball,Men,8/7/21,handball,men,181,12,France,FRA,Denmark,DEN,Spain,ESP,nan,nan,nan,nan
+Team Handball,Handball,Women,8/8/21,handball,women,182,12,France,FRA,ROC,ROC,Norway,NOR,nan,nan,nan,nan
+Field Hockey,Field Hockey,Men,8/5/21,hockey,men,213,12,Belgium,BEL,Australia,AUS,India,IND,nan,nan,nan,nan
+Field Hockey,Field Hockey,Women,8/6/21,hockey,women,209,12,Netherlands,NED,Argentina,ARG,Great Britain,GBR,nan,nan,nan,nan
+Judo,Heavyweight Judo,Men,7/30/21,judo,men--plus-100-kg,22,22,KRPALEK Lukas,CZE,TUSHISHVILI Guram,GEO,RINER Teddy,FRA,BASHAEV Tamerlan,ROC,nan,nan
+Judo,Half-Heavyweight Judo,Men,7/29/21,judo,men-100-kg,24,24,WOLF Aaron,JPN,CHO Guham,KOR,FONSECA Jorge,POR,ILIASOV Niiaz,ROC,nan,nan
+Judo,Extra-Lightweight Judo,Men,7/24/21,judo,men-60-kg,23,23,TAKATO Naohisa,JPN,WYANG Yung Wei,TPE,SMETOV Yeldos,KAZ,MKHEIDZE Luka,FRA,nan,nan
+Judo,Half-Lightweight Judo,Men,7/25/21,judo,men-66-kg,27,27,ABE Hifumi,JPN,MARGVELASHVILI Vazha,GEO,AN Baul,KOR,CARGNIN Daniel,BRA,nan,nan
+Judo,Lightweight Judo,Men,7/26/21,judo,men-73-kg,33,33,ONO Shohei,JPN,SHAVDATUASHVILI Lasha,GEO,AN Changrim,KOR,TSEND-OCHIR Tsogtbaatar,MGL,nan,nan
+Judo,Half-Middleweight Judo,Men,7/27/21,judo,men-81-kg,34,34,NAGASE Takanori,JPN,MOLLAEI Saeid,MGL,BORCHASHVILI Shamil,AUT,CASSE Matthias,BEL,nan,nan
+Judo,Middleweight Judo,Men,7/28/21,judo,men-90-kg,33,33,BEKAURI Lasha,GEO,TRIPPEL Eduard,GER,BOBONOV Davlat,UZB,TOTH Krisztian,HUN,nan,nan
+Judo,Mixed Team Judo,Mixed,7/31/21,judo,mixed-team,81,12,France,FRA,Japan,JPN,Germany,GER,Israel,ISR,nan,nan
+Judo,Heavyweight Judo,Women,7/30/21,judo,women--plus-78-kg,27,27,SONE Akira,JPN,ORTIZ Idalys,CUB,KINDZERSKA Iryna,AZE,DICKO Romane,FRA,nan,nan
+Judo,Extra-Lightweight Judo,Women,7/24/21,judo,women-48-kg,28,28,KRASNIQI Distria,KOS,TONAKI Funa,JPN,BILODID Daria,UKR,MUNKHBAT Urantsetseg,MGL,nan,nan
+Judo,Half-Lightweight Judo,Women,7/25/21,judo,women-52-kg,29,29,ABE Uta,JPN,BUCHARD Amandine,FRA,GIUFFRIDA Odette,ITA,GILES Chelsie,GBR,nan,nan
+Judo,Lightweight Judo,Women,7/26/21,judo,women-57-kg,25,25,GJAKOVA Nora,KOS,LCYSIQUE Sarah Leonie,FRA,YOSHIDA Tsukasa,JPN,KLIMKAIT Jessica,CAN,nan,nan
+Judo,Half-Middleweight Judo,Women,7/27/21,judo,women-63-kg,30,30,AGBEGNENOU Clarisse,FRA,TRSTENJAK Tina,SLO,CENTRACCHIO Maria,ITA,atherine,CAN,nan,nan
+Judo,Middleweight Judo,Women,7/28/21,judo,women-70-kg,28,28,ARAI Chizuru,JPN,POLLERES Michaela,AUT,TAIMAZOVA Madina,ROC,IJKE Svan DIJKE Sanne,NED,nan,nan
+Judo,Half-Heavyweight Judo,Women,7/29/21,judo,women-78-kg,24,24,HAMADA Shori,JPN,MALONGA Madeleine,FRA,MWAGNER Anna-Maria,GER,AGUIAR Mayra,BRA,nan,nan
+Karate,Kata,Men,8/6/21,karate,men-s-kata,11,11,KIYUNA Ryo,JPN,QUINTERO Damian,ESP,SOFUOGLU Ali,TUR,UTIERREZ ATORRES GUTIERREZ Ariel,USA,nan,nan
+Karate,Kumite >75 kg,Men,8/7/21,karate,men-s-kumite--plus-75kg,9,9,GANJZADEH Sajad,IRI,HAMEDI Tareg,KSA,AKTAS Ugur,TUR,ARAGA Ryutaro,JPN,nan,nan
+Karate,Kumite <67 kg,Men,8/5/21,karate,men-s-kumite-67kg,11,11,OSTA Sda COSTA Steven,FRA,SAMDAN Eray,TUR,ASSADILOV Darkhan,KAZ,RALMASATFA Abdel Rahman,JOR,nan,nan
+Karate,Kumite <75 kg,Men,8/6/21,karate,men-s-kumite-75kg,10,10,BUSA Luigi,ITA,AGHAYEV Rafael,AZE,HORUNA Stanislav,UKR,GHARSPATAKI Karoly Gabor,HUN,nan,nan
+Karate,Kata,Women,8/6/21,karate,women-s-kata,10,10,AIME SSANCHEZ JAIME Sandra,ESP,SHIMIZU Kiyou,JPN,SGLAU Mo Sheung Grace,HKG,BOTTARO Viviana,ITA,nan,nan
+Karate,Kumite >61 kg,Women,8/7/21,karate,women-s-kumite--plus-61kg,10,10,ABDELAZIZ Feryal,EGY,ZARETSKA Iryna,AZE,BERULTSEVA Sofya,KAZ,GONG Li,CHN,nan,nan
+Karate,Kumite <55 kg,Women,8/5/21,karate,women-s-kumite-55kg,9,9,GORANOVA Ivet,BUL,TERLIUGA Anzhelika,UKR,PLANK Bettina,AUT,WEN Tzuyun,TPE,nan,nan
+Karate,Kumite <61 kg,Women,8/6/21,karate,women-s-kumite-61kg,10,10,PREKOVIC Jovana,SRB,YIN Xiaoyan,CHN,COBAN Merve,TUR,LOTFY Giana,EGY,nan,nan
+Openwater Swimming,10K Open Water Swim,Men,8/5/21,marathon-swimming,men-s-10km,26,23,WELLBROCK Florian,GER,RASOVSZKY Kristof,HUN,PALTRINIERI Gregorio,ITA,nan,nan,nan,nan
+Openwater Swimming,10K Open Water Swim,Women,8/4/21,marathon-swimming,women-s-10km,25,23,MCUNHA Ana Marcela,BRA,OUWENDAAL Svan ROUWENDAAL Sharon,NED,LEE Kareena,AUS,nan,nan,nan,nan
+Modern Pentathlon,Individual Pentathlon,Men,8/7/21,modern-pentathlon,men-s-individual,36,26,CHOONG Joseph,GBR,ELGENDY Ahmed,EGY,JUN Woongtae,KOR,nan,nan,nan,nan
+Modern Pentathlon,Individual Pentathlon,Women,8/6/21,modern-pentathlon,women-s-individual,36,23,FRENCH Kate,GBR,ASADAUSKAITE Laura,LTU,KOVACS Sarolta,HUN,nan,nan,nan,nan
+Rhythmic Gymnastics,Rhythmic Group,Women,8/8/21,rhythmic-gymnastics,group-all-around,70,14,Bulgaria,BUL,ROC,ROC,Italy,ITA,nan,nan,nan,nan
+Rhythmic Gymnastics,Rhythmic Individual,Women,8/7/21,rhythmic-gymnastics,individual-all-around,26,18,ASHRAM Linoy,ISR,AVERINA Dina,ROC,HARNASKO Alina,BLR,nan,nan,nan,nan
+Rowing,Lightweight Double Scull,Men,7/29/21,rowing,lightweight-men-s-double-sculls,36,18,Ireland,IRL,Germany,GER,Italy,ITA,nan,nan,nan,nan
+Rowing,Double Scull,Men,7/28/21,rowing,men-s-double-sculls,26,13,France,FRA,Netherlands,NED,China,CHN,nan,nan,nan,nan
+Rowing,Coxed Eight,Men,7/30/21,rowing,men-s-eight,63,7,New Zealand,NZL,Germany,GER,Great Britain,GBR,nan,nan,nan,nan
+Rowing,Coxless Four,Men,7/28/21,rowing,men-s-four,41,10,Australia,AUS,Romania,ROU,Italy,ITA,nan,nan,nan,nan
+Rowing,Coxless Pair,Men,7/29/21,rowing,men-s-pair,27,13,Croatia,CRO,Romania,ROU,Denmark,DEN,nan,nan,nan,nan
+Rowing,Quad Scull,Men,7/27/21,rowing,men-s-quadruple-sculls,40,10,Netherlands,NED,Great Britain,GBR,Australia,AUS,nan,nan,nan,nan
+Rowing,Single Scull,Men,7/30/21,rowing,men-s-single-sculls,32,32,NTOUSKOS SNTOUSKOS Stefanos,GRE,BORCH KBORCH Kjetil,NOR,MARTIN DMARTIN Damir,CRO,nan,nan,nan,nan
+Rowing,Lightweight Double Scull,Women,7/29/21,rowing,lightweight-women-s-double-sculls,36,18,Italy,ITA,France,FRA,Netherlands,NED,nan,nan,nan,nan
+Rowing,Double Scull,Women,7/28/21,rowing,women-s-double-sculls,26,13,Romania,ROU,New Zealand,NZL,Netherlands,NED,nan,nan,nan,nan
+Rowing,Coxed Eight,Women,7/30/21,rowing,women-s-eight,63,7,Canada,CAN,New Zealand,NZL,China,CHN,nan,nan,nan,nan
+Rowing,Coxless Four,Women,7/28/21,rowing,women-s-four,40,10,Australia,AUS,Netherlands,NED,Ireland,IRL,nan,nan,nan,nan
+Rowing,Coxless Pair,Women,7/29/21,rowing,women-s-pair,26,13,New Zealand,NZL,ROC,ROC,Canada,CAN,nan,nan,nan,nan
+Rowing,Quad Scull,Women,7/27/21,rowing,women-s-quadruple-sculls,40,10,China,CHN,Poland,POL,Australia,AUS,nan,nan,nan,nan
+Rowing,Single Scull,Women,7/30/21,rowing,women-s-single-sculls,32,32,TWIGG ETWIGG Emma,NZL,PRAKATSEN HPRAKATSEN Hanna,ROC,LOBNIG MLOBNIG Magdalena,AUT,nan,nan,nan,nan
+Rugby Sevens,Rugby Sevens,Men,7/28/21,rugby-sevens,men,156,12,Fiji,FIJ,New Zealand,NZL,Argentina,ARG,nan,nan,nan,nan
+Rugby Sevens,Rugby Sevens,Women,7/31/21,rugby-sevens,women,153,12,New Zealand,NZL,France,FRA,Fiji,FIJ,nan,nan,nan,nan
+Sailing,470 two-person Dinghy,Men,8/4/21,sailing,470-men,38,19,Australia,AUS,Sweden,SWE,Spain,ESP,nan,nan,nan,nan
+Sailing,49er two-person skiff,Men,8/2/21,sailing,49er-men,38,19,Great Britain,GBR,New Zealand,NZL,Germany,GER,nan,nan,nan,nan
+Sailing,Finn Heavyweight Single Dinghy,Men,8/3/21,sailing,finn-men,19,19,SCOTT Giles,GBR,BERECZ Zsombor,HUN,ENDEZ JCARDONA MENDEZ Joan,ESP,nan,nan,nan,nan
+Sailing,Laser Single Dinghy,Men,8/1/21,sailing,laser-men,35,35,WEARN Matt,AUS,STIPANOVIC Tonci,CRO,TOMASGAARD Hermann,NOR,nan,nan,nan,nan
+Sailing,Windsurfing Race,Men,7/31/21,sailing,rs-x-men,25,25,BADLOE Kiran,NED,GOYARD Thomas,FRA,BI Kun,CHN,nan,nan,nan,nan
+Sailing,Nacra 17 Foiling Multihull,Mixed,8/3/21,sailing,nacra-17-mixed,40,20,Italy,ITA,Great Britain,GBR,Germany,GER,nan,nan,nan,nan
+Sailing,470 two-person Dinghy,Women,8/4/21,sailing,470-women,42,21,Great Britain,GBR,Poland,POL,France,FRA,nan,nan,nan,nan
+Sailing,49er two-person skiff,Women,8/2/21,sailing,49er-fx-women,42,21,Brazil,BRA,Germany,GER,Netherlands,NED,nan,nan,nan,nan
+Sailing,Laser Radial Dinghy,Women,8/1/21,sailing,laser-radial-women,44,44,MRINDOM Anne-Marie,DEN,OLSSON Josefin,SWE,BOUWMEESTER Marit,NED,nan,nan,nan,nan
+Sailing,Windsurfing Race,Women,7/31/21,sailing,rs-x-women,27,27,LU Yunxiu,CHN,PICON Charline,FRA,WILSON Emma,GBR,nan,nan,nan,nan
+Shooting,Air Pistol 10M,Men,7/24/21,shooting,10m-air-pistol-men,36,29,FOROUGHI Javad,IRI,MIKEC Damir,SRB,PANG Wei,CHN,nan,nan,nan,nan
+Shooting,Air Rifle 10M,Men,7/25/21,shooting,10m-air-rifle-men,47,32,SHANER William,USA,SHENG Lihao,CHN,YANG Haoran,CHN,nan,nan,nan,nan
+Shooting,Rapid-Fire Pistol 25M,Men,8/2/21,shooting,25m-rapid-fire-pistol-men,27,19,QUIQUAMPOIX Jean,FRA,PUPO Leuris,CUB,LI Yuehong,CHN,nan,nan,nan,nan
+Shooting,Small-Bore Rifle Three Position 50M,Men,8/2/21,shooting,50m-rifle-3-positions-men,39,27,ZHANG Changhong,CHN,KAMENSKIY Sergey,ROC,SEBIC Milenko,SRB,nan,nan,nan,nan
+Shooting,Skeet Shooting,Men,7/26/21,shooting,skeet-men,30,22,HANCOCK Vincent,USA,HANSEN Jesper,DEN,ALRASHIDI Abdullah,KUW,nan,nan,nan,nan
+Shooting,Trap Shooting,Men,7/29/21,shooting,trap-men,29,23,LIPTAK Jiri,CZE,KOSTELECKY David,CZE,OLLEY MJCOWARD HOLLEY Matthew John,GBR,nan,nan,nan,nan
+Shooting,Team Air Pistol 10M,Mixed,7/27/21,shooting,10m-air-pistol-mixed-team,40,15,People's Republic of China 1,CHN,ROC 1,ROC,Ukraine,UKR,nan,nan,nan,nan
+Shooting,Team Air Rifle 10M,Mixed,7/27/21,shooting,10m-air-rifle-mixed-team,58,20,People's Republic of China 1,CHN,United States of America 1,USA,ROC 2,ROC,nan,nan,nan,nan
+Shooting,Team Trap Shooting,Mixed,7/31/21,shooting,trap-mixed-team,32,12,Spain,ESP,San Marino,SMR,United States of America 2,USA,nan,nan,nan,nan
+Shooting,Air Pistol 10M,Women,7/25/21,shooting,10m-air-pistol-women,53,37,BATSARASHKINA Vitalina,ROC,KOSTADINOVA Antoaneta,BUL,JIANG Ranxin,CHN,nan,nan,nan,nan
+Shooting,Air Rifle 10M,Women,7/24/21,shooting,10m-air-rifle-women,50,39,YANG Qian,CHN,GALASHINA Anastasiia,ROC,CHRISTEN Nina,SUI,nan,nan,nan,nan
+Shooting,Sporting Pistol 25M,Women,7/30/21,shooting,25m-pistol-women,44,30,BATSARASHKINA Vitalina,ROC,KIM Minjung,KOR,XIAO Jiaruixuan,CHN,nan,nan,nan,nan
+Shooting,Small-Bore Rifle Three Positions 50M,Women,7/31/21,shooting,50m-rifle-3-positions-women,37,29,CHRISTEN Nina,SUI,ZYKOVA Yulia,ROC,KARIMOVA Yulia,ROC,nan,nan,nan,nan
+Shooting,Skeet Shooting,Women,7/26/21,shooting,skeet-women,28,22,ENGLISH Amber,USA,BACOSI Diana,ITA,WEI Meng,CHN,nan,nan,nan,nan
+Shooting,Trap Shooting,Women,7/29/21,shooting,trap-women,26,19,TEFECEKOVAREHAK STEFECEKOVA Zuzana,SVK,BROWNING Kayle,USA,PERILLI Alessandra,SMR,nan,nan,nan,nan
+Skateboarding,Park Skate,Men,8/5/21,skateboarding,men-s-park,20,13,PALMER Keegan,AUS,BARROS Pedro,BRA,JUNEAU Cory,USA,nan,nan,nan,nan
+Skateboarding,Street Skate,Men,7/25/21,skateboarding,men-s-street,20,12,HORIGOME Yuto,JPN,HOEFLER Kelvin,BRA,EATON Jagger,USA,nan,nan,nan,nan
+Skateboarding,Park Skate,Women,8/4/21,skateboarding,women-s-park,20,13,YOSOZUMI Sakura,JPN,HIRAKI Kokona,JPN,BROWN Sky,GBR,nan,nan,nan,nan
+Skateboarding,Street Skate,Women,7/26/21,skateboarding,women-s-street,20,13,NISHIYA Momiji,JPN,LEAL Rayssa,BRA,NAKAYAMA Funa,JPN,nan,nan,nan,nan
+Sport Climbing,Combined Climbing,Men,8/5/21,sport-climbing,men-s-combined,20,15,OPEZ AGINES LOPEZ Alberto,ESP,COLEMAN Nathaniel,USA,SCHUBERT Jakob,AUT,nan,nan,nan,nan
+Sport Climbing,Combined Climbing,Women,8/6/21,sport-climbing,women-s-combined,20,15,GARNBRET Janja,SLO,NONAKA Miho,JPN,NOGUCHI Akiyo,JPN,nan,nan,nan,nan
+Surfing,Surfing,Men,7/28/21,surfing,men,19,13,FERREIRA Italo,BRA,IGARASHI Kanoa,JPN,WRIGHT Owen,AUS,nan,nan,nan,nan
+Surfing,Surfing,Women,7/28/21,surfing,women,20,12,MOORE Carissa,USA,BUITENDAG Bianca,RSA,TSUZUKI Amuro,JPN,nan,nan,nan,nan
+Swimming,100M Backstroke,Men,7/27/21,swimming,men-s-100m-backstroke,41,30,RYLOV Evgeny,ROC,KOLESNIKOV Kliment,ROC,MURPHY Ryan,USA,nan,nan,nan,nan
+Swimming,100M Breaststroke,Men,7/26/21,swimming,men-s-100m-breaststroke,49,38,PEATY Adam,GBR,KAMMINGA Arno,NED,MARTINENGHI Nicolo,ITA,nan,nan,nan,nan
+Swimming,100M Butterfly,Men,7/31/21,swimming,men-s-100m-butterfly,56,45,DRESSEL Caeleb,USA,MILAK Kristof,HUN,PONTI Noe,SUI,nan,nan,nan,nan
+Swimming,100M Freestyle,Men,7/29/21,swimming,men-s-100m-freestyle,70,62,DRESSEL Caeleb,USA,CHALMERS Kyle,AUS,KOLESNIKOV Kliment,ROC,nan,nan,nan,nan
+Swimming,1500M Freestyle,Men,8/1/21,swimming,men-s-1500m-freestyle,28,20,FINKE Robert,USA,ROMANCHUK Mykhailo,UKR,WELLBROCK Florian,GER,nan,nan,nan,nan
+Swimming,200M Backstroke,Men,7/30/21,swimming,men-s-200m-backstroke,29,23,RYLOV Evgeny,ROC,MURPHY Ryan,USA,GREENBANK Luke,GBR,nan,nan,nan,nan
+Swimming,200M Breaststroke,Men,8/1/21,swimming,men-s-200m-breaststroke,40,34,STUBBLETY-COOK Izaac,AUS,KAMMINGA Arno,NED,MATTSSON Matti,FIN,nan,nan,nan,nan
+Swimming,200M Butterfly,Men,7/28/21,swimming,men-s-200m-butterfly,38,30,MILAK Kristof,HUN,HONDA Tomoru,JPN,BURDISSO Federico,ITA,nan,nan,nan,nan
+Swimming,200M Freestyle,Men,7/27/21,swimming,men-s-200m-freestyle,39,30,DEAN Tom,GBR,SCOTT Duncan,GBR,SCHEFFER Fernando,BRA,nan,nan,nan,nan
+Swimming,200M Individual Medley,Men,7/30/21,swimming,men-s-200m-individual-medley,45,33,WANG Shun,CHN,SCOTT Duncan,GBR,DESPLANCHES Jeremy,SUI,nan,nan,nan,nan
+Swimming,4x100M Freestyle,Men,7/26/21,swimming,men-s-4-x-100m-freestyle-relay,70,16,United States,USA,Italy,ITA,Australia,AUS,nan,nan,nan,nan
+Swimming,4x100M Medley,Men,8/1/21,swimming,men-s-4-x-100m-medley-relay,74,16,United States,USA,Great Britain,GBR,Italy,ITA,nan,nan,nan,nan
+Swimming,4x200M Freestyle,Men,7/28/21,swimming,men-s-4-x-200m-freestyle-relay,73,16,Great Britain,GBR,ROC,ROC,Australia,AUS,nan,nan,nan,nan
+Swimming,400M Freestyle,Men,7/25/21,swimming,men-s-400m-freestyle,36,31,HAFNAOUI Ahmed,TUN,.McLOUGHLIN Jack,AUS,SMITH Kieran,USA,nan,nan,nan,nan
+Swimming,400M Individual Medley,Men,7/25/21,swimming,men-s-400m-individual-medley,29,23,KALISZ Chase,USA,LITHERLAND Jay,USA,SMITH Brendon,AUS,nan,nan,nan,nan
+Swimming,50M Freestyle,Men,8/1/21,swimming,men-s-50m-freestyle,73,66,DRESSEL Caeleb,USA,MANAUDOU Florent,FRA,FRATUS Bruno,BRA,nan,nan,nan,nan
+Swimming,800M Freestyle,Men,7/29/21,swimming,men-s-800m-freestyle,33,28,FINKE Robert,USA,PALTRINIERI Gregorio,ITA,ROMANCHUK Mykhailo,UKR,nan,nan,nan,nan
+Swimming,4x100M Medley Mixed,Mixed,7/31/21,swimming,mixed-4-x-100m-medley-relay,76,16,Great Britain,GBR,China,CHN,Australia,AUS,nan,nan,nan,nan
+Swimming,100M Backstroke,Women,7/27/21,swimming,women-s-100m-backstroke,41,34,McKEOWN Kaylee,AUS,MASSE Kylie,CAN,SMITH Regan,USA,nan,nan,nan,nan
+Swimming,100M Breaststroke,Women,7/27/21,swimming,women-s-100m-breaststroke,45,38,JACOBY Lydia,USA,SCHOENMAKER Tatjana,RSA,KING Lilly,USA,nan,nan,nan,nan
+Swimming,100M Butterfly,Women,7/28/21,swimming,women-s-100m-butterfly,33,27,MACNEIL Margaret,CAN,ZHANG Yufei,CHN,McKEON Emma,AUS,nan,nan,nan,nan
+Swimming,100M Freestyle,Women,7/30/21,swimming,women-s-100m-freestyle,51,42,McKEON Emma,AUS,BHAUGHEY Siobhan Bernadette,HKG,CAMPBELL Cate,AUS,nan,nan,nan,nan
+Swimming,1500M Freestyle,Women,7/28/21,swimming,women-s-1500m-freestyle,33,22,LEDECKY Kathleen,USA,SULLIVAN Erica,USA,KOHLER Sarah,GER,nan,nan,nan,nan
+Swimming,200M Backstroke,Women,7/31/21,swimming,women-s-200m-backstroke,27,22,McKEOWN Kaylee,AUS,MASSE Kylie,CAN,SEEBOHM Emily,AUS,nan,nan,nan,nan
+Swimming,200M Breaststroke,Women,7/30/21,swimming,women-s-200m-breaststroke,31,24,SCHOENMAKER Tatjana,RSA,KING Lilly,USA,LAZOR Annie,USA,nan,nan,nan,nan
+Swimming,200M Butterfly,Women,7/29/21,swimming,women-s-200m-butterfly,16,13,ZHANG Yufei,CHN,SMITH Regan,USA,FLICKINGER Hali,USA,nan,nan,nan,nan
+Swimming,200M Freestyle,Women,7/31/21,swimming,women-s-200m-freestyle,29,23,TITMUS Ariarne,AUS,BHAUGHEY Siobhan Bernadette,HKG,OLEKSIAK Penny,CAN,nan,nan,nan,nan
+Swimming,200M Individual Medley,Women,7/28/21,swimming,women-s-200m-individual-medley,27,20,OHASHI Yui,JPN,WALSH Alex,USA,DOUGLASS Kate,USA,nan,nan,nan,nan
+Swimming,4x100M Freestyle,Women,7/25/21,swimming,women-s-4-x-100m-freestyle-relay,68,15,Australia,AUS,Canada,CAN,United States,USA,nan,nan,nan,nan
+Swimming,4x100M Medley,Women,8/1/21,swimming,women-s-4-x-100m-medley-relay,79,16,Australia,AUS,United States,USA,Canada,CAN,nan,nan,nan,nan
+Swimming,4x200M Freestyle,Women,7/29/21,swimming,women-s-4-x-200m-freestyle-relay,72,15,China,CHN,United States,USA,Australia,AUS,nan,nan,nan,nan
+Swimming,400M Freestyle,Women,7/26/21,swimming,women-s-400m-freestyle,26,19,TITMUS Ariarne,AUS,LEDECKY Kathleen,USA,LI Bingjie,CHN,nan,nan,nan,nan
+Swimming,400M Individual Medley,Women,7/25/21,swimming,women-s-400m-individual-medley,17,13,OHASHI Yui,JPN,WEYANT Emma,USA,FLICKINGER Hali,USA,nan,nan,nan,nan
+Swimming,50M Freestyle,Women,8/1/21,swimming,women-s-50m-freestyle,81,73,McKEON Emma,AUS,SJOESTROEM Sarah,SWE,BLUME Pernille,DEN,nan,nan,nan,nan
+Swimming,800M Freestyle,Women,7/31/21,swimming,women-s-800m-freestyle,30,22,LEDECKY Kathleen,USA,TITMUS Ariarne,AUS,QUADARELLA Simona,ITA,nan,nan,nan,nan
+Ping Pong,Singles Ping Pong,Men,7/30/21,table-tennis,men-s-singles,65,43,MA Long,CHN,FAN Zhendong,CHN,OVTCHAROV Dimitrij,GER,nan,nan,nan,nan
+Ping Pong,Team Ping Pong,Men,8/6/21,table-tennis,men-s-team,48,16,China,CHN,Germany,GER,Japan,JPN,nan,nan,nan,nan
+Ping Pong,Doubles Ping Pong,Mixed,7/26/21,table-tennis,mixed-doubles,32,16,MIZUTANI Jun / ITO Mima,JPN,XU Xin / LIU Shiwen,CHN,LIN Yun Ju / CHENG I Ching,TPE,nan,nan,nan,nan
+Ping Pong,Singles Ping Pong,Women,7/29/21,table-tennis,women-s-singles,70,44,CHEN Meng,CHN,SUN Yingsha,CHN,ITO Mima,JPN,nan,nan,nan,nan
+Ping Pong,Team Ping Pong,Women,8/5/21,table-tennis,women-s-team,48,16,China,CHN,Japan,JPN,"Hong Kong, China",HKG,nan,nan,nan,nan
+Taekwondo,Heavyweight Taekwondo,Men,7/27/21,taekwondo,men--plus-80kg,16,16,LARIN Vladislav,ROC,GEORGIEVSKI Dejan,MKD,ASTILLO RYALBA CASTILLO Rafael Yunier,CUB,DIN Kyo Don,KOR,nan,nan
+Taekwondo,Flyweight Taekwondo,Men,7/24/21,taekwondo,men-58kg,16,16,DELL'AQUILA Vito,ITA,KJENDOUBI Mohamed Khalil,TUN,JANG Jun,KOR,ARTAMONOV Mikhail,ROC,nan,nan
+Taekwondo,Featherweight Taekwondo,Men,7/25/21,taekwondo,men-68kg,17,17,RASHITOV Ulugbek,UZB,SINDEN Bradly,GBR,ZHAO Shuai,CHN,RECBER Hakan,TUR,nan,nan
+Taekwondo,Welterweight Taekwondo,Men,7/26/21,taekwondo,men-80kg,16,16,KHRAMTCOV Maksim,ROC,ELSHARABATY Saleh,JOR,KANAET Toni,CRO,EISSA Seif,EGY,nan,nan
+Taekwondo,Heavyweight Taekwondo,Women,7/27/21,taekwondo,women--plus-67kg,15,15,MANDIC Milica,SRB,LEE Dabin,KOR,LAURIN Althea,FRA,WALKDEN Bianca,GBR,nan,nan
+Taekwondo,Flyweight Taekwondo,Women,7/24/21,taekwondo,women-49kg,17,17,WONGPATTANAKIT Panipak,THA,GLESIAS ACEREZO IGLESIAS Adriana,ESP,SEMBERG Abishag,ISR,BOGDANOVIC Tijana,SRB,nan,nan
+Taekwondo,Featherweight Taekwondo,Women,7/25/21,taekwondo,women-57kg,17,17,ZOLOTIC Anastasija,USA,MININA Tatiana,ROC,LLO Chia-Ling,TPE,KILGUN Hatice Kubra,TUR,nan,nan
+Taekwondo,Welterweight Taekwondo,Women,7/26/21,taekwondo,women-67kg,16,16,JELIC Matea,CRO,WILLIAMS Lauren,GBR,GBAGBI Ruth,CIV,MALAK Hedaya,EGY,nan,nan
+Tennis,Doubles Tennis,Men,7/30/21,tennis,men-s-doubles,64,22,Mektic / Pavic,CRO,Cilic / Dodig,CRO,Daniell / Venus,NZL,nan,nan,nan,nan
+Tennis,Singles Tennis,Men,8/1/21,tennis,men-s-singles,64,32,ZVEREV Alexander,GER,KHACHANOV Karen,ROC,USTA PCARRENO BUSTA Pablo,ESP,nan,nan,nan,nan
+Tennis,Doubles Tennis,Mixed,8/1/21,tennis,mixed-doubles,32,15,Pavlyuchenkova / Rublev,ROC,Vesnina / Karatsev,ROC,Barty / Peers,AUS,nan,nan,nan,nan
+Tennis,Doubles Tennis,Women,8/1/21,tennis,women-s-doubles,64,23,Krejcikova / Siniakova,CZE,Bencic / Golubic,SUI,Pigossi / Stefani,BRA,nan,nan,nan,nan
+Tennis,Singles Tennis,Women,7/31/21,tennis,women-s-singles,64,32,BENCIC Belinda,SUI,VONDROUSOVA Marketa,CZE,SVITOLINA Elina,UKR,nan,nan,nan,nan
+Trampoline,Individual Trampoline,Men,7/31/21,trampoline-gymnastics,men,16,12,LITVINOVICH Ivan,BLR,DONG Dong,CHN,SCHMIDT Dylan,NZL,nan,nan,nan,nan
+Trampoline,Individual Trampoline,Women,7/30/21,trampoline-gymnastics,women,16,11,ZHU Xueying,CHN,LIU Lingling,CHN,PAGE Bryony,GBR,nan,nan,nan,nan
+Triathlon,Olympic Triathlon,Men,7/26/21,triathlon,men-s-individual,51,29,BLUMMENFELT Kristian,NOR,YEE Alex,GBR,WILDE Hayden,NZL,nan,nan,nan,nan
+Triathlon,Mixed Relay Triathlon,Mixed,7/31/21,triathlon,mixed-relay,64,16,Great Britain,GBR,United States,USA,France,FRA,nan,nan,nan,nan
+Triathlon,Olympic Triathlon,Women,7/27/21,triathlon,women-s-individual,54,30,DUFFY Flora,BER,TAYLOR-BROWN Georgia,GBR,ZAFERES Katie,USA,nan,nan,nan,nan
+Volleyball,Court Volleyball,Men,8/7/21,volleyball,men,143,12,France,FRA,ROC,ROC,Argentina,ARG,nan,nan,nan,nan
+Volleyball,Court Volleyball,Women,8/8/21,volleyball,women,144,12,United States,USA,Brazil,BRA,Serbia,SRB,nan,nan,nan,nan
+Water Polo,Water Polo,Men,8/8/21,water-polo,men,156,12,Serbia,SRB,Greece,GRE,Hungary,HUN,nan,nan,nan,nan
+Water Polo,Water Polo,Women,8/7/21,water-polo,women,129,10,United States,USA,Spain,ESP,Hungary,HUN,nan,nan,nan,nan
+Weightlifting,Super-Heavyweight Powerlift,Men,8/4/21,weightlifting,men-s--plus-109kg,13,13,TALAKHADZE Lasha,GEO,DAVOUDI Ali,IRI,ASAAD Man,SYR,nan,nan,nan,nan
+Weightlifting,Heavyweight Powerlift,Men,8/3/21,weightlifting,men-s-109kg,14,14,DJURAEV Akbar,UZB,MARTIROSYAN Simon,ARM,PLESNIEKS Arturs,LAT,nan,nan,nan,nan
+Weightlifting,Featherweight Powerlift,Men,7/25/21,weightlifting,men-s-61kg,14,14,LI Fabin,CHN,YIRAWAN Eko Yuli,INA,SON Igor,KAZ,nan,nan,nan,nan
+Weightlifting,Lightweight Powerlift,Men,7/25/21,weightlifting,men-s-67kg,14,14,CHEN Lijun,CHN,OZANO LJMOSQUERA LOZANO Luis Javier,COL,ZANNI Mirko,ITA,nan,nan,nan,nan
+Weightlifting,Middleweight Powerlift,Men,7/28/21,weightlifting,men-s-73kg,14,14,SHI Zhiyong,CHN,ERNIA JRMAYORA PERNIA Julio Ruben,VEN,EABDULLAH Rahmat Erwin,INA,nan,nan,nan,nan
+Weightlifting,Middle-Heavyweight Powerlift,Men,7/31/21,weightlifting,men-s-81kg,15,15,LYU Xiaojun,CHN,ICHEL ZBONNAT MICHEL Zacarias,DOM,PIZZOLATO Antonino,ITA,nan,nan,nan,nan
+Weightlifting,Light-Heavyweight Powerlift,Men,7/31/21,weightlifting,men-s-96kg,14,14,IEHELBAKH Fares Ibrahim E H,QAT,ANCHEZVALLENILLA SANCHEZ Keydomar Giovan.,VEN,PLIESNOI Anton,GEO,nan,nan,nan,nan
+Weightlifting,Super-Heavyweight Powerlift,Women,8/2/21,weightlifting,women-s--plus-87kg,14,14,LI Wenwen,CHN,JCAMPBELL Emily Jade,GBR,EROBLES Sarah Elizabeth,USA,nan,nan,nan,nan
+Weightlifting,Featherweight Powerlift,Women,7/26/21,weightlifting,women-s-49kg,14,14,HOU Zhihui,CHN,SMIRABAI Chanu Saikhom,IND,CAISAH Windy Cantika,INA,nan,nan,nan,nan
+Weightlifting,Flyweight Powerlift,Women,7/24/21,weightlifting,women-s-55kg,14,14,DIAZ Hidilyn,PHI,LIAO Qiuyun,CHN,CHINSHANLO Zulfiya,KAZ,nan,nan,nan,nan
+Weightlifting,Lightweight Powerlift,Women,7/27/21,weightlifting,women-s-59kg,14,14,CKUO Hsing-Chun,TPE,GURYEVA Polina,TKM,ANDOH Mikiko,JPN,nan,nan,nan,nan
+Weightlifting,Middleweight Powerlift,Women,7/27/21,weightlifting,women-s-64kg,14,14,GCHARRON Maude G,CAN,BORDIGNON Giorgia,ITA,HCHEN Wen-Huei,TPE,nan,nan,nan,nan
+Weightlifting,Light-Heavyweight Powerlift,Women,8/1/21,weightlifting,women-s-76kg,13,13,ARRERA NPDAJOMES BARRERA Neisi Patricia,ECU,ENYE Katherine Elizabeth,USA,AVALA AFUENTES ZAVALA Aremi,MEX,nan,nan,nan,nan
+Weightlifting,Heavyweight Powerlift,Women,8/2/21,weightlifting,women-s-87kg,13,13,WANG Zhouyu,CHN,RCE TYSALAZAR ARCE Tamara Yajaira,ECU,EGUERO CDSANTANA PEGUERO Crismery Dominga,DOM,nan,nan,nan,nan
+Wrestling,Super-Heavyweight Freestyle,Men,8/6/21,wrestling,men-s-freestyle-125kg,16,16,DSTEVESON Gable Dan,USA,PETRIASHVILI Geno,GEO,HZARE Amir Hossein,IRI,AKGUL Taha,TUR,nan,nan
+Wrestling,Featherweight Freestyle,Men,8/5/21,wrestling,men-s-freestyle-57kg,16,16,UGUEV Zavur,ROC,RAVI Kumar,IND,SANAYEV Nurislam,KAZ,PGILMAN Thomas Patrick,USA,nan,nan
+Wrestling,Welterweight Freestyle,Men,8/7/21,wrestling,men-s-freestyle-65kg,16,16,OTOGURO Takuto,JPN,ALIYEV Haji,AZE,RASHIDOV Gadzhimurad,ROC,BAJRANG Bajrang,IND,nan,nan
+Wrestling,Middleweight Freestyle,Men,8/6/21,wrestling,men-s-freestyle-74kg,16,16,SIDAKOV Zaurbek,ROC,KADZIMAHAMEDAU Mahamedkhabib,BLR,DDAKE Kyle Douglas,USA,ABDURAKHMONOV Bekzod,UZB,nan,nan
+Wrestling,Light-Heavyweight Freestyle,Men,8/5/21,wrestling,men-s-freestyle-86kg,16,16,II DMTAYLOR III David Morris,USA,YAZDANICHARATI Hassan,IRI,NAIFONOV Artur,ROC,NAMINE Myles Nazem,SMR,nan,nan
+Wrestling,Heavyweight Freestyle,Men,8/7/21,wrestling,men-s-freestyle-97kg,15,15,SADULAEV Abdulrashid,ROC,FSNYDER Kyle Frederick,USA,EREZ RSALAS PEREZ Reineris,CUB,UANO ADJCONYEDO RUANO Abraham de Jesus,ITA,nan,nan
+Wrestling,Super-Heavyweight Greco-Roman,Men,8/2/21,wrestling,men-s-greco-roman-130kg,16,16,UNEZ MLOPEZ NUNEZ Mijain,CUB,KAJAIA Iakobi,GEO,KAYAALP Riza,TUR,SEMENOV Sergei,ROC,nan,nan
+Wrestling,Featherweight Greco-Roman,Men,8/2/21,wrestling,men-s-greco-roman-60kg,16,16,ANCHEZ LAORTA SANCHEZ Luis Alberto,CUB,FUMITA Kenichiro,JPN,WALIHAN Sailike,CHN,EMELIN Sergey,ROC,nan,nan
+Wrestling,Welterweight Greco-Roman,Men,8/4/21,wrestling,men-s-greco-roman-67kg,17,17,GERAEI Mohammadreza,IRI,NASIBOV Parviz,UKR,STAEBLER Frank,GER,IEELSAYED Mohamed Ibrahim Elsayed,EGY,nan,nan
+Wrestling,Middleweight Greco-Roman,Men,8/3/21,wrestling,men-s-greco-roman-77kg,15,15,LORINCZ Tamas,HUN,MAKHMUDOV Akzhol,KGZ,YABIKU Shohei,JPN,HUSEYNOV Rafig,AZE,nan,nan
+Wrestling,Light-Heavyweight Greco-Roman,Men,8/4/21,wrestling,men-s-greco-roman-87kg,16,16,BELENIUK Zhan,UKR,LORINCZ Viktor,HUN,MKUDLA Denis Maksymilian,GER,DATUNASHVILI Zurabi,SRB,nan,nan
+Wrestling,Heavyweight Greco-Roman,Men,8/3/21,wrestling,men-s-greco-roman-97kg,16,16,EVLOEV Musa,ROC,ALEKSANYAN Artur,ARM,MICHALIK Tadeusz,POL,SARAVI Mohammadhadi,IRI,nan,nan
+Wrestling,Flyweight Freestyle,Women,8/7/21,wrestling,women-s-freestyle-50kg,16,16,SUSAKI Yui,JPN,SUN Yanan,CHN,STADNIK Mariya,AZE,AHILDEBRANDT Sarah Ann,USA,nan,nan
+Wrestling,Featherweight Freestyle,Women,8/6/21,wrestling,women-s-freestyle-53kg,16,16,MUKAIDA Mayu,JPN,PANG Qianyu,CHN,KALADZINSKAYA Vanesa,BLR,CHIR BBAT OCHIR Bolortuya,MGL,nan,nan
+Wrestling,Lightweight Freestyle,Women,8/5/21,wrestling,women-s-freestyle-57kg,16,16,KAWAI Risako,JPN,KURACHKINA Iryna,BLR,LMAROULIS Helen Louise,USA,GNIKOLOVA Evelina Georgieva,BUL,nan,nan
+Wrestling,Middleweight Freestyle,Women,8/4/21,wrestling,women-s-freestyle-62kg,16,16,KAWAI Yukako,JPN,TYNYBEKOVA Aisuluu,KGZ,KOLIADENKO Iryna,UKR,MYUSEIN Taybe Mustafa,BUL,nan,nan
+Wrestling,Light-Heavyweight Freestyle,Women,8/3/21,wrestling,women-s-freestyle-68kg,16,16,TOCK TMMENSAH STOCK Tamyra Mariama,USA,OBORUDUDU Blessing,NGR,CHERKASOVA Alla,UKR,ZHUMANAZAROVA Meerim,KGZ,nan,nan
+Wrestling,Heavyweight Freestyle,Women,8/2/21,wrestling,women-s-freestyle-76kg,16,16,OCKEN AROTTER FOCKEN Aline,GER,MGRAY Adeline Maria,USA,ADAR Yasemin,TUR,ZHOU Qian,CHN,nan,nan
