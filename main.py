@@ -1,4 +1,3 @@
-#encoding=utf-8
 """
 the main script for my olympics analysis.
 My data schema for the 2020 Tokyo Olympics is:
@@ -18,27 +17,31 @@ My data schema for the 2020 Tokyo Olympics is:
                 head coach name, country, age, first Olympics.
 """
 
-import pandas as pd
 import os
 import sys
 from datetime import datetime as dt
+
+import pandas as pd
+
 # imports from my modules:
 import gs_getters as gsg
-import gs_util as gsu
 import gs_plots as gsp
+import gs_util as gsu
 from gs_datadict import *
 
 # variables to control what scripts are run:
-source_results: bool= False
-source_medalists: bool= False
+source_results: bool = False
+source_medalists: bool = False
 analyze_basics: bool = True
-analyze_athletes: bool= True
-analyze_events: bool = False
-save_entries: bool = True
+analyze_athletes: bool = False
+analyze_events: bool = True
+save_entries: bool = False
 
 if os.path.isfile(os.path.join(RAWDIR, evts_byrow_f)):
     # get list/dict of disciplines and country teams (NOCs) which attended Olympics
-    disciplines: list = gsg.get_list_file(RAWDIR + discf)
+    check_fields: list = ["the_elements", "tallbias", "style", "fast_twitch",
+                          "suffer", "greypoupon", "cool"]
+    disciplines: list = gsg.get_list_file(RAWDIR + discf, chkcols=check_fields)
     countries: dict = gsg.get_list_file(RAWDIR + nocf)
     # file of medal events - core data for this app
     fqf = os.path.join(RAWDIR, evts_byrow_f)
@@ -60,9 +63,7 @@ if source_results:
 else:
     # get event results from backup, such as 'results_bak_2021-09-26.csv'
     bakf = os.path.join(OUTDIR, evtresults_f)
-    flat_list = gsg.get_list_file(bakf)
-    evt_rslts = gsg.get_events_from_bak(flat_list)
-    del flat_list
+    evt_rslts = gsg.get_events_from_bak(bakf)
 
 if source_medalists:
     # get all medalists for 'NOC'. defaults to country="united states"
@@ -74,25 +75,34 @@ else:
 
 if analyze_basics:
     # ---- verify event and medal counts, reconcile source files plot medals by NOC ----
+    # reconcile was built to clean initial data- not needed once stable!
+    # events_edf: pd.DataFrame = gsu.reconcile_eventdf_wsrc(evt_rslts, events_df)
+
     disc_evts: dict = gsu.count_events(evt_rslts)
-    clean_edf: pd.DataFrame = gsu.reconcile_eventdf_wsrc(evt_rslts, events_df)
-    medals: list = gsg.get_noc_medalct(clean_edf)
+    medals: list = gsg.get_noc_medalct(events_df)
     select_nocs = ['USA', 'CHN', 'JPN', 'GBR', 'ROC', 'AUS']
-    gsp.medals_barplot(medals, countries, select_nocs)
+    # gsp.medals_barplot(medals, countries, select_nocs)
 
-if analyze_athletes:
-    # look at athlete age, height, and weight by team and sport, compare to adult avg
-    gsu.describe_teams(athlete_df)
-    precalc = gsu.prep_precalcs(athlete_df)
-    by_ht, by_wt = gsu.athletes_with_groupby(athlete_df)
-    # do plot of avg height and weight by sport for medal winners, plus adult avg plot
+    if analyze_athletes:
+        # look at athlete age, height, and weight by team and sport, compare to adult avg
+        gsu.describe_athlete_data(athlete_df)
+        precalcs = gsu.prep_precalcs(athlete_df)
+        by_ht, by_wt = gsu.athletes_groupby(athlete_df)
+        gsp.plot_athlete_avg(precalcs)
+        gsp.height_vs_norm(precalcs)
 
-if analyze_events:
-    # organize by primary and secondary groups
-    prime_to_dis: dict = gsu.describe_basics(disciplines, clean_edf)
-    sportsg_df, meta_dict = gsu.analyze_events(disciplines, events_df)
-    grp_sports, grp_medals = gsu.analyze_groups(disc_evts, disciplines, events_df)
-    # gsp.plot_groups(primes, grp_sports, grp_medals)
+    if analyze_events:
+        # organize by primary and secondary groups
+        prime_to_dis: dict = gsu.describe_basics(disciplines, events_df)
+        # sportsg_df, meta_dict = gsu.analyze_events(disciplines, events_df)
+        grp_sports, grp_medals = gsu.analyze_groups(disciplines, events_df)
+        grp_nocs = gsu.count_grp_nocs(grp_medals, grp_sports)
+        grps: list = list(grp_sports.keys())
+        # primedf: pd.DataFrame = gsp.plot_groups(prime_to_dis, disc_evts)
+        selected: str = "combat"
+        slct_idx: int = grps.index(selected)
+        slctd_noc: dict = grp_nocs[slct_idx]
+
 
 if save_entries:
     # backup data that is 'expensive' to source or build
@@ -111,7 +121,7 @@ if save_entries:
 
     # move a recent, clean copy of this to RAWDIR for use as input
     bak_name = OUTDIR + "medalevents_byrow_" + today_dt + ".csv"
-    gsu.save_events_df(clean_edf, bak_name)
+    gsu.save_events_df(events_df, bak_name)
 
     # TODO: format date as %Y-%m-%d, age and ht_in as %.1f, add
     bak_name = OUTDIR + "athletes_" + today_dt + ".csv"

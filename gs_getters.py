@@ -3,24 +3,26 @@ the  module in gs_Olympics app involving data acquisition via HTML page reads (s
 TODO: move IO Fx's in gs_util to here, move general util Fx's from here to gs_util.
 """
 import csv
-import pandas as pd
-import numpy as np
-import requests
 from urllib.error import HTTPError
+
+import numpy as np
+import pandas as pd
+import requests
 from bs4 import BeautifulSoup
-import html5lib
-from gs_datadict import EVT_URL, NOC_URL, MDLST_URL
+
+from gs_datadict import EVT_URL, MDLST_URL
 
 # 4 disciplines use different URL folder struct from others
 evtrnk_lst: list = ["3x3-basketball", "surfing", "beach-volleyball", "karate"]
-headers = {'Access-Control-Allow-Origin': '*',
+headers = {
+    'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Methods': 'GET',
     'Access-Control-Allow-Headers': 'Content-Type',
     'Access-Control-Max-Age': '3600',
     'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
 }
 
-def get_olympic_data(fil, typ: str=""):
+def get_olympic_data(fil, typ: str = ""):
     """
     1. read raw Olympic event data into pandas DataFrames
     2. read file with final standings for Olympic medal events
@@ -33,7 +35,7 @@ def get_olympic_data(fil, typ: str=""):
         df = pd.read_csv(fil, skipinitialspace=True)
     elif typ.startswith("athletes"):
         types = {"age": np.float32, "ht_in": float, "ht_lbs": float}
-        df = pd.read_csv(fil, dtype=types, skipinitialspace=True)
+        df = pd.read_csv(fil, dtype=types)
         df['dob'] = pd.to_datetime(df['dob'], errors="coerce", format="%Y-%m-%d")
     elif typ.startswith("events"):
         df = pd.read_csv(fil)
@@ -43,11 +45,12 @@ def get_olympic_data(fil, typ: str=""):
 
     return df
 
-def get_list_file(discfil):
+def get_list_file(discfil, chkcols: list = None):
     """
     this is a generic getter for several Olympic files used in this app,
     possible to add separate processing paths as i've done for the countries file
     :param discfil: fq filename for discplines.csv
+    :param chkcols: list of checkmark fields to be converted to type bool
     :return: list of dict
     """
     with open(discfil, mode='r') as infile:
@@ -55,28 +58,38 @@ def get_list_file(discfil):
         if 'country_name' in csrdr.fieldnames:
             tmp: dict = {}
             for row in csrdr:
-                tmp.update({row["NOC"]:row["country_name"]})
+                tmp.update({row["NOC"]: row["country_name"]})
+        elif str(discfil).endswith("disciplines.csv"):
+            tmp: list = []
+            for row in csrdr:
+                if chkcols:
+                    for col in chkcols:
+                        if str(row.get(col)).startswith("x"):
+                            row[col]: bool = True
+                        else:
+                            row[col]: bool = False
+                tmp.append(row)
         else:
             tmp: list = []
             for row in csrdr:
                 tmp.append(row)
     return tmp
 
-def get_events_from_bak(disc):
+def get_events_from_bak(bak):
     """
-    build events table from backup that was read
-    :param disc:
+    build event results from backup, reads a flat file of results for all events into a
+    list of events, each with a list of dict for each final standing
+    :param bak: a backup file of results
     :return:
     """
+    flatlst = get_list_file(bak)
     evt_list: list = []
     evttmp: list = []
-    lim = len(disc) - 1
-    for x in range(len(disc)):
-        if x == 0:
-            thisevt: str = disc[x]['event']
-        evttmp.append(disc[x])
-        if x +1 <= lim:
-            if disc[x+1]['event'] != disc[x]['event']:
+    lim = len(flatlst) - 1
+    for x in range(len(flatlst)):
+        evttmp.append(flatlst[x])
+        if x < lim:
+            if flatlst[x+1]['event'] != flatlst[x]['event']:
                 evt_list.append(evttmp)
                 evttmp: list = []
         elif x == lim:
@@ -101,10 +114,10 @@ def get_noc_medalct(mdf):
         :param typ: str of Gold, Silver, or Bronze
         :return:
         """
-        mdldct: dict = mdf[typ + "_NOC"].value_counts().to_dict()
+        mdldct: dict = edf[typ + "_NOC"].value_counts().to_dict()
         if typ in ['G', 'B']:
             dup_mdl: str = typ + "2_NOC"
-            tmpdct: dict = mdf[dup_mdl].value_counts().to_dict()
+            tmpdct: dict = edf[dup_mdl].value_counts().to_dict()
 
             for k, v in tmpdct.items():
                 if k in mdldct:
@@ -174,7 +187,7 @@ def simple_event_entry(disc, event, debug: bool=False):
         sfx: str = "/medals-and-ranking-"
     fqurl = EVT_URL + str(disc) + sfx + str(event) + ".htm"
     if debug:
-        print("getting %s results for event: %s" %(disc,event))
+        print("getting %s results for event: %s" %(disc, event))
     try:
         if disc in evtrnk_lst:
             pandas_resp = pd.read_html(fqurl, match="Event Ranking", flavor="html5lib")
@@ -183,7 +196,7 @@ def simple_event_entry(disc, event, debug: bool=False):
     except HTTPError as err:
         if err.code == 404:
             print("404 Error on url: %s" %fqurl)
-            respdf = pd.DataFrame({'discipline': [],})
+            respdf = pd.DataFrame({'discipline': [], })
             return respdf
         else:
             raise
@@ -207,7 +220,7 @@ def simple_event_entry(disc, event, debug: bool=False):
         respdf['event'] = event
         respdf['discipline'] = disc
         if 'Rank' in respdf.columns:
-            respdf = respdf.rename(columns={"Rank":"final_place"})
+            respdf = respdf.rename(columns={"Rank": "final_place"})
 
         # housekeeping on standings: may contain "DNS", "DNF", etc strings...
         respdf['final_place'] = respdf['final_place'].astype(str)
@@ -216,44 +229,13 @@ def simple_event_entry(disc, event, debug: bool=False):
         respdf['final_place'] = respdf['final_place'].astype(int)
         respdf.fillna(0, inplace=True)
 
-        respdf = respdf.reindex(["discipline","event","NOC","Name","final_place"], axis=1)
-        respdf.set_index(['discipline','event','final_place'], drop=False, inplace=True)
-        # respdf.dropna(how='all', axis=1, inplace=True)
+        respdf = respdf.reindex(["discipline", "event", "NOC", "Name", "final_place"], axis=1)
+        respdf.set_index(['discipline', 'event', 'final_place'], drop=False, inplace=True)
     else:
         print("simple_event_entry: html parsing errors...\n")
         return None
 
     return respdf
-
-def scrape_noc_entries(nocfil):
-    """
-    TODO: as of sept28 2021- have not needed to use this Fx, it needs a bug shakeout!
-    get entries for each Olympic discipline for NOCs in 'nocfil'
-    uses bs4 (Beautiful Soup) html scraping.
-    :param nocfil: file with list of NOCS and end text for html request
-    :return:
-    """
-    entrylst: list = []
-    with open(nocfil, mode='r') as infil:
-        rows = csv.reader(infil)
-    for r in rows:
-        disc_dct: dict = {"NOC":r[0], "Name": r[1], "ent_url": r[2]}
-        entrylst.append(disc_dct)
-
-    entrydf: pd.DataFrame = pd.DataFrame(columns=["Discipline", "F", "M", "Total"])
-    tmprecs: list = []
-    for nocx in entrylst:
-        noc_url: str = NOC_URL + str(nocx['ent_url'])
-        nocdf = pd.read_html(noc_url)
-        if len(nocdf) == 1:
-            tmpdct: dict = nocdf[0].to_dict("records")
-            for ent in tmpdct:
-                ent["NOC"] = nocx["NOC"]
-                ent["Name"] = nocx["Name"]
-            tmprecs.extend(tmpdct)
-    entrydf.from_records(tmprecs)
-
-    return entrydf
 
 def process_disc_and_event(dis, gdf: pd.DataFrame):
     """
@@ -269,7 +251,7 @@ def process_disc_and_event(dis, gdf: pd.DataFrame):
         dis_url = dis[y]['htmlq']
         dis_name = dis[y]['discipline']
         tmpdf: pd.DataFrame = gdf.loc[gdf['Sport'] == dis_name]
-        tmpdf.sort_values(by=['Gender','Event'], inplace=True)
+        tmpdf.sort_values(by=['Gender', 'Event'], inplace=True)
         for x in range(len(tmpdf)):
             evt_url = tmpdf.iat[x, 5]
             edf: pd.DataFrame = simple_event_entry(dis_url, evt_url, debug=True)

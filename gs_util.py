@@ -5,11 +5,12 @@ describe_xxxx - give characteristics of dataframe or list with one type of Olymp
 reconcile_xxxx or cleanup_xxxx - true-up one data set with another, fix errors or missings
 """
 
-import pandas as pd
-from pandas.api.types import CategoricalDtype
+import csv
 import json
 import os
-import csv
+import pandas as pd
+from pandas.api.types import CategoricalDtype
+
 from gs_datadict import OUTDIR
 
 def count_events(elist):
@@ -28,7 +29,7 @@ def count_events(elist):
             edct[lstx[0]['discipline']] = 1
         else:
             edct[lstx[0]['discipline']] += 1
-    print("    found %d events in %d Disciplines \n" %(sum(edct.values()),dis_cnt))
+    print("    found %d events in %d Disciplines \n" %(sum(edct.values()), dis_cnt))
 
     return edct
 
@@ -105,7 +106,6 @@ def save_events_df(edf: pd.DataFrame, savef: str):
     :param savef: fully qualified path + filename
     :return: none
     """
-    hdr = edf.columns.tolist()
     edata = edf.to_dict("records")
     save_dcts_tocsv(edata, savef)
     print("backup completed for %d Event Summary records \n" %len(edata))
@@ -118,7 +118,7 @@ def read_df_from_file(archf):
     :param archf: a csv file with all event or athlete data
     :return: pd.DataFrame
     """
-    df = pd.read_csv(archf, dtype={'final_place':int})
+    df = pd.read_csv(archf, dtype={'final_place': int})
 
     return df
 
@@ -147,8 +147,8 @@ def show_metadata(meta: dict):
     :return:
     """
     print("------ Metadata for athletes ------")
-    for k,v in meta.items():
-        print(" Meta: %s = %d" %(k,v))
+    for k, v in meta.items():
+        print(" Meta: %s = %d" %(k, v))
     print("")
 
     return
@@ -169,15 +169,14 @@ def describe_basics(dis: list, edf: pd.DataFrame):
             print("%s events were %s format\n" % (v, k))
 
     sprt_mdls: dict = edf["Sport"].value_counts().to_dict()
-    print("%d sports Disciplines had medal events at the Tokyo Olympics..." %len(sprt_mdls))
+    print("%d Disciplines had medal events at the Tokyo Olympics..." %len(sprt_mdls))
     for k, v in sprt_mdls.items():
         print("    %d medal events in %s" % (v, k))
 
-    print("\nlong list of onesie-twosies...it would help to grouped disciplines at a higher level...")
     primes: list = [d['primary'] for d in dis]
     primes = get_uniques(primes)
 
-    print("Primary Group joins disciplines based on a common essence or character of sport")
+    print("\nI designated a higher level 'Primary group' for each discipline")
     print("    %d primary groups..." %len(primes))
     primdct: dict = {}
     for p in primes:
@@ -185,62 +184,76 @@ def describe_basics(dis: list, edf: pd.DataFrame):
         for d in dis:
             if str(d['primary']).startswith(p):
                 p_dis.append(d['htmlq'])
-        primdct.update({p :p_dis})
-    for k,v in primdct.items():
-        print("primary group %s contains %d disciplines" %(k,len(v)))
+        primdct.update({p: p_dis})
+
+    for k, v in primdct.items():
+        print("%s group includes %s" %(k, v))
     print("")
 
     return primdct
 
-def analyze_groups(de_ct: dict, dis: list, edf: pd.DataFrame):
+def analyze_groups(dis: list, edf: pd.DataFrame):
     """
     get info on primary and secondary level sports groups I created
-    :param de_ct: discip_evt_count dict with count of medal events per discipline
     :param dis: list of disciplines with primary and secondary groups
     :param edf: events dataframe
     :return:
     """
     primes: list = [disx['primary'] for disx in dis]
     primes: list = get_uniques(primes)
-
-    seconds: list = [disx['secondary'] for disx in dis]
-    seconds = get_uniques(seconds)
-
-    # create an element in grp_sports and grp_medals for each Sport in a primary group
-    grp_sports: list = []
+    # append grp_sports and grp_medals for each Sport in a primary group
+    grp_sports: dict = {}
     grp_mdls: list = []
     for p in primes:
-        # for each primary group I tagged in disciplines, get individual sports
-        #     then for each sport, collect results for multiple events
+        #  for each sport in group, collect results for events
         p_sports = [x['htmlq'] for x in dis if x['primary']==p]
-        tmpdf = edf[edf["disc_html"].isin(p_sports)]
-        tmpsports: list = tmpdf.disc_html.values.tolist()
-        tmpsports = get_uniques(tmpsports)
-        grp_collect: dict = {}
+        evt_count: int = 0
         sprt_mdls: list = []
-        for sp in tmpsports:
-            # for each named discipline in this primary group...
-            grp_collect.update({sp: de_ct[sp]})
-            # each element in grp_sports is dict {Sport , #_of_events}
-            tmp1dis = tmpdf[tmpdf["disc_html"]==sp]
-            prime_g: list = tmp1dis.G_NOC.values.tolist()
-            prime_s: list = tmp1dis.S_NOC.values.tolist()
-            prime_b: list = tmp1dis.B_NOC.values.tolist()
-            # for events with multiple gold or bronze, look for legit NOC entries
-            g2l: list = tmp1dis.G2_NOC.values.tolist()
-            for g in g2l:
-                if str(g).isupper():
-                    prime_g.extend(g)
-            b2l: list = tmp1dis.B2_NOC.values.tolist()
-            for b in b2l:
-                if str(b).isupper():
-                    prime_b.extend(b)
-            sprt_mdls.extend([p,sp, prime_g, prime_s, prime_b])
+        for spx in p_sports:
+            # .loc with columns list in brackets SHOULD return a df, buggy though...
+            tmp_df: pd.DataFrame = edf.loc[edf["disc_html"]== spx, ["G_NOC", "S_NOC", "B_NOC", "G2_NOC", "B2_NOC"]]
+            evt_count += len(tmp_df)
+            prime_g: list = tmp_df.G_NOC.to_list()
+            prime_s: list = tmp_df.S_NOC.to_list()
+            prime_b: list = tmp_df.B_NOC.to_list()
+
+            for altmdl in ["G2_NOC", "B2_NOC"]:
+                nocmdl  = tmp_df.loc[tmp_df[altmdl].notna(), [altmdl]]
+                if len(nocmdl) >= 1:
+                    altm_lst = nocmdl[altmdl].to_list()
+                    prime_g.extend(altm_lst)
+            sprt_mdls.append([spx, prime_g, prime_s, prime_b])
 
         grp_mdls.append(sprt_mdls)
-        grp_sports.append(grp_collect)
+        grp_sports.update({p: evt_count})
+
+    for k, v in grp_sports.items():
+        print("primary group %s had %d medal events" %(k, v))
 
     return grp_sports, grp_mdls
+
+def count_grp_nocs(g_m: list, g_s: dict):
+    """
+    aggregate medals by NOC for each primary group
+    :param g_m: list of n(groups) length with list for each sport with noc medals
+    :param g_s: dict with key=group name, val=num of medal events
+    :return:
+    """
+    grp_noc_ct: list = []
+    for gnam, mdls in zip(g_s.keys(), g_m):
+        noc_dct: dict = {}
+        slen: int = len(mdls)
+        for x in range(slen):
+            for y in [1, 2, 3]:
+                nocs: list = mdls[x][y]
+                for z in nocs:
+                    if z in noc_dct:
+                        noc_dct[z] += 1
+                    else:
+                        noc_dct[z] = 1
+        grp_noc_ct.append(noc_dct)
+
+    return grp_noc_ct
 
 def analyze_events(dis: list, edf: pd.DataFrame):
     """
@@ -290,7 +303,7 @@ def analyze_events(dis: list, edf: pd.DataFrame):
 
     return eg_df, meta_dct
 
-def describe_teams(tdf: pd.DataFrame):
+def describe_athlete_data(tdf: pd.DataFrame):
     """
     tell some things about the athlete and team data like number of groups, gender, etc.
     :param tdf: copy of teamsdf created as part of the main readfiles script
@@ -298,45 +311,47 @@ def describe_teams(tdf: pd.DataFrame):
     """
 
     len_all = len(tdf)
-    len_weight = len(tdf.loc[tdf.wt_lbs.notnull()]['wt_lbs'])
-    len_height = len(tdf.loc[tdf.ht_in.notnull()]['ht_in'])
+    wt_coverage = round((len_all - tdf.wt_lbs.isna().sum()) * 100 / len_all, ndigits=1)
+    ht_coverage = round((len_all - tdf.ht_in.isna().sum()) * 100/len_all, ndigits=1)
     bygender = tdf.gender.value_counts().to_dict()
-    pct_male = bygender["Men"] / (bygender["Men"] + bygender["Women"])
-    print("percentage of athletes with height data: %.2f" %(len_height/len_all))
-    print("percentage of athletes with height data: %.2f" %(len_weight/len_all))
-    print("physical data on %d athletes, %2.1f percent male\n" % (sum(bygender.values()), pct_male * 100))
+    male_female = bygender["Men"] / (bygender["Men"] + bygender["Women"])
+    print("---- Athlete data has %d rows ----" %len_all)
+    print("    %.1f percent of records have height info" %ht_coverage)
+    print("    %.1f percent of records have weight info" %wt_coverage)
+    print("    %2.1f percent are male\n" %(male_female * 100))
 
     return
 
-def athletes_with_groupby(adf: pd.DataFrame):
+def athletes_groupby(adf: pd.DataFrame):
     """
     use dataframe groupby to calculate stats for athletes by team and sport
     :param adf: the teamsdf DataFrame created as part of readfiles - getOlympicdata
     :return: ht_grp and wt_grp: 2 pd.DataFrames with athlete descriptive statistics
     """
 
-    funcs = {"age":"mean","ht_in":["mean","min","max"],"wt_lbs":"mean"}
+    print("\n---- athletes_groupby prep athlete data for analysis ----")
+    funcs = {"age": "mean", "ht_in": ["mean", "min", "max"], "wt_lbs": "mean"}
     newcols = ["avg_age", "avg_ht", "min_ht", "max_ht", "avg_wt"]
-    tdf: pd.DataFrame = adf.copy(deep=True)
 
-    tdf = tdf.drop('category')
-    # create categorical data types, no nulls allowed in categorical columns
-    evt_cat = tdf.event.unique().tolist()
-    tdf["event"] = tdf["event"].astype(CategoricalDtype(evt_cat))
-    gend_cat = tdf.gender.unique().tolist()
-    tdf["gender"] = tdf["gender"].astype(CategoricalDtype(gend_cat))
-    noc_cat = tdf.NOC.unique().tolist()
-    tdf["NOC"] = tdf["NOC"].astype(CategoricalDtype(noc_cat))
-    tdf["medal"] = tdf.loc[tdf["medal"].isna(), ["medal"]] = "No"
-    mdl_cat = tdf.medal.unique().tolist()
-    tdf["medal"] = tdf["medal"].astype(CategoricalDtype(mdl_cat))
+    print("    creating categorical dtypes for category, event, gender, and NOC")
+    cat_cat = adf.category.unique().tolist()
+    adf["category"] = adf["category"].astype(CategoricalDtype(cat_cat))
+    evt_cat = adf.event.unique().tolist()
+    adf["event"] = adf["event"].astype(CategoricalDtype(evt_cat))
+    gend_cat = adf.gender.unique().tolist()
+    adf["gender"] = adf["gender"].astype(CategoricalDtype(gend_cat))
+    noc_cat = adf.NOC.unique().tolist()
+    adf["NOC"] = adf["NOC"].astype(CategoricalDtype(noc_cat))
+    adf["medal"] = adf.loc[adf["medal"].isna(), ["medal"]] = "No"
+    mdl_cat = adf.medal.unique().tolist()
+    adf["medal"] = adf["medal"].astype(CategoricalDtype(mdl_cat))
 
-    # remove the precalculated data, and remove nulls for height and weight
-
+    print("    removing precalculated rows and rows with missing height or weight")
+    tdf = adf[adf["NOC"] != "ALL"]
     ht_df = tdf[tdf['ht_in'].notna()]
     wt_df = tdf[tdf['wt_lbs'].notna()]
+    print("    %d rows for athlete height, %d rows for athlete weight" %(len(ht_df), len(wt_df)))
 
-    # group our height data by sports event and team, and calc average, max and mins
     ht_grp = ht_df.groupby(["event", "gender"])
     ht_grp = ht_grp.agg(funcs)
     ht_grp.columns = newcols
@@ -358,32 +373,49 @@ def prep_precalcs(adf: pd.DataFrame):
     """
 
     precalcs: pd.DataFrame = adf.loc[adf.NOC == "ALL"]
-    # this code was before I set US Adult data to "ALL", so no longer necess.
-    # public = adf[adf["event"]== "Couch_Surfing"]
-    # precalcs: pd.DataFrame = precalcs.append(public)
 
+    print("\n----  Prep precalculated Athlete data for plotting ----")
+    print("    dropping %d rows due to no weight data" % precalcs.wt_lbs.isna().sum())
     precalcs = precalcs.dropna(subset=["wt_lbs"])
-    precalcs = precalcs.drop(["dob"], axis=1 )
-    print("precalcs has %d categories of athletes" %len(precalcs.value_counts()))
+    precalcs = precalcs.drop(["dob"], axis=1)
+    precalcs = precalcs.reset_index(drop=True)
+    gendct: dict = precalcs.gender.value_counts().to_dict()
+    catevts: dict = precalcs.category.value_counts().to_dict()
+    print("    weight-height averages in %d events" %sum(catevts.values()))
+    print("    in %d groups of sports" %len(catevts))
+    print("    %d for Women, %d for Men\n" %(gendct['Women'], gendct['Men']))
 
     return precalcs
 
-def cleanup_events(edf: pd.DataFrame, check_fields: list):
+def conv_checkmark_to_bool(strct, chk_cols: list):
     """
     handle ('x' | '') checkmark fields read from csv's: transform to boolean columns
-    TODO: change this Fx to handle checkmarks in list of dict, rather than DataFrame
-    :param edf: df created by get_olympic_data
-    :param check_fields: list of checklist columns to convert to boolean
-    :return: df with fields cleaned up
+    :param strct: data container with checkmarks- either list or DataFrame
+    :param chk_cols: list of columns with checkmark "x" to convert to boolean True
+    :return: strct with checkmark fields converted to boolean
     """
-    for col in check_fields:
-        if col in edf.columns:
-            edf[col] = edf[col].apply(lambda y: True if str(y).startswith("x") else False)
-            print("cleaned up dataframe column  %s" %col)
-        else:
-            print("event cleanup: did not find column %s" %col)
+    if isinstance(strct, list):
+        for item in strct:
+            if isinstance(item, dict):
+                for col in chk_cols:
+                    if item.get(col):
+                        if str(item[col]).startswith("x"):
+                            item[col] = True
+                        else:
+                            item[col] = False
+                    else:
+                        item[col] = False
+    elif isinstance(strct, pd.DataFrame):
+        for col in chk_cols:
+            if col in strct.columns:
+                strct[col] = strct[col].apply(lambda y: True if str(y).startswith("x") else False)
+                print("cleaned up dataframe column  %s" %col)
+            else:
+                print("event cleanup: did not find column %s" %col)
+    else:
+        print("convert checkmarks was not passed a usable container")
 
-    return edf
+    return strct
 
 def reconcile_eventdf_wsrc(evts: list, edf: pd.DataFrame):
     """
@@ -432,9 +464,9 @@ def reconcile_eventdf_wsrc(evts: list, edf: pd.DataFrame):
                                         'B_NOC', 'Bronze2', 'B2_NOC']].to_dict()
             else:
                 rowval: dict = edf.loc[(ds, ev),
-                                   ['Gold','G_NOC','Silver','S_NOC','Bronze','B_NOC']].to_dict()
+                                   ['Gold', 'G_NOC', 'Silver', 'S_NOC', 'Bronze', 'B_NOC']].to_dict()
 
-            for k,v in rowval.items():
+            for k, v in rowval.items():
                 if srcdct[k] == v:
                     # print("%s-%s matches" %(ds,ev))
                     continue
@@ -446,5 +478,5 @@ def reconcile_eventdf_wsrc(evts: list, edf: pd.DataFrame):
                         evt_flag = True
 
     edf.reset_index(drop=True, inplace=True)
-    print(" corrected %d entries in %d rows for event DataFrame" %(col_count,row_count))
+    print(" corrected %d entries in %d rows for event DataFrame" %(col_count, row_count))
     return edf
