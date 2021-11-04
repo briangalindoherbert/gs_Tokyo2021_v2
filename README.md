@@ -1,11 +1,10 @@
 # github_Tokyo2021
-I just (October 4, 2021) created a new repo to replace what I had started for my Tokyo Olympics analysis.  
-the prior repo I put up on github had little functionality and lots of bugs! so better to set up a clean repo and work forward from here
+I just (October 4, 2021) created a new repo to replace what I had started for my Tokyo Olympics analysis, prior work was very preliminary and bug-ridden! 
 
-I've been busy- lots of analysis of athlete height and weight by sport and event and comparisons to distributions of US adults- 
-    all US adult men and women, as well as those in the 20-29 year old age group which matches most Olympians
+I've added analysis of athlete height and weight by sport and event, and comparisons between athlete mean and the distributions of US adults- 
+    as well as just US adult men and women age 20-29 years, which matches the mean age of most Olympic athletes (age data also included).
     
-    Also, in this repo I know have the scraping working like a champ- pulling results directly for all medal events and comparing and reconciling
+    Also, in this latest version I got the html-scraping via Pandas and Beautiful Soup working much more reliably.  The Olympic site has a lot of idiosyncracies and lack of standard html tags, which would make pulling data easier.  I am not sure why they do not code the pages so they are more readily accessible, but it works!
     the batch loaded file data that I started with (I had started the app by using a publicly available file that seemed well circulated, but found it
     had errors so I wrote a 'true-up routine' to fix it from the results I scraped directly.  I learned from that- don't trust public data- it's ok to
     use it, but its best to work up a verification scheme to test and fix the data just in case :-).
